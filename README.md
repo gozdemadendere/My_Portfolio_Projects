@@ -3,6 +3,7 @@
 This repository contains my Data Science/Analysis portfolio projects.
 
 These projects demonstrate my skills in Python, SQL, Tableau, Machine Learning Algorithms.
+________________________
 
 1 - **SQL Data Driven Businesses** | SQL
 
@@ -20,7 +21,7 @@ These projects demonstrate my skills in Python, SQL, Tableau, Machine Learning A
 
 8 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
 
-
+________________________
 
 ## Skillset
 
@@ -42,7 +43,7 @@ These projects demonstrate my skills in Python, SQL, Tableau, Machine Learning A
 
 • Recommender Systems
 
-
+________________________
 
 ## Connect with me
 
