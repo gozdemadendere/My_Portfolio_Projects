@@ -1,0 +1,11 @@
+icao,iata,name,shortName,municipalityName,countryCode,location.lat,location.lon
+EDDB,BER,"Berlin, Berlin Brandenburg",Brandenburg,Berlin,DE,52.35139,13.493889
+EDDH,HAM,Hamburg,Hamburg,Hamburg,DE,53.6304,9.988229
+EGLC,LCY,"London, London City",City,London,GB,51.5053,0.055277
+EGKK,LGW,"London, London Gatwick",Gatwick,London,GB,51.1481,-0.190277
+EGSS,STN,"London, London Stansted",Stansted,London,GB,51.885,0.234999
+EGLL,LHR,"London, London Heathrow",Heathrow,London,GB,51.4706,-0.461941
+EGGW,LTN,"London, London Luton",Luton,London,GB,51.8747,-0.368333
+LTFM,IST,Istanbul,Istanbul,Istanbul,TR,41.275276,28.751944
+LTFJ,SAW,"Istanbul, Sabiha Gökçen",Sabiha Gökçen,Istanbul,TR,40.8986,29.3092
+LEBL,BCN,Barcelona,Barcelona,Barcelona,ES,41.2971,2.078459

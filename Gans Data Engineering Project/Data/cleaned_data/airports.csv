@@ -1,0 +1,11 @@
+icao,name,short_name,city,country_code,city_id
+EDDB,"Berlin, Berlin Brandenburg",Brandenburg,Berlin,DE,1
+EDDH,Hamburg,Hamburg,Hamburg,DE,2
+EGLC,"London, London City",City,London,GB,3
+EGKK,"London, London Gatwick",Gatwick,London,GB,3
+EGSS,"London, London Stansted",Stansted,London,GB,3
+EGLL,"London, London Heathrow",Heathrow,London,GB,3
+EGGW,"London, London Luton",Luton,London,GB,3
+LTFM,Istanbul,Istanbul,Istanbul,TR,4
+LTFJ,"Istanbul, Sabiha Gökçen",Sabiha Gökçen,Istanbul,TR,4
+LEBL,Barcelona,Barcelona,Barcelona,ES,5
