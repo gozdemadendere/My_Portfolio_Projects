@@ -4,21 +4,21 @@ This repository contains my Data Science/Analysis portfolio projects.
 
 These projects demonstrate my skills in Python, SQL, Tableau, Machine Learning Algorithms.
 
-1 - SQL Data Driven Businesses | SQL
+1 - **SQL Data Driven Businesses** | SQL
 
-2 - Eniac Data Cleaning and Storytelling | Python (Pandas, Seaborn)
+2 - **Eniac Data Cleaning and Storytelling** | Python (Pandas, Seaborn)
 
-3 - Tableau Data Visualization & Dashboard Projects | Tableau, SQL
+3 - **Tableau Data Visualization & Dashboard Projects** | Tableau, SQL
 
-4 - Gans Data Engineering & Data Pipeline | Python (Pandas, Seaborn)
+4 - **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
 
-5 - Montana State University A-B Testing | Python (Pandas)
+5 - **Montana State University A-B Testing** | Python (Pandas)
 
-6 - Hypothesis Testing Projects | Python (Pandas)
+6 - **Hypothesis Testing Projects** | Python (Pandas)
 
-7 - Youtube Web Scraping - EDA Project | Python (Pandas)
+7 - **Youtube Web Scraping - EDA Project** | Python (Pandas)
 
-8 - Spotify Clustering Songs - Unsupervised Machine learning | Python (Scikit-Learn, Pandas)
+8 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
 
 
 
