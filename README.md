@@ -9,17 +9,20 @@ ________________________
 
 2 - **Eniac Data Cleaning and Storytelling** | Python (Pandas, Seaborn)
 
-3 - **Tableau Data Visualization & Dashboard Projects** | Tableau, SQL
+3 - **House Prices Prediction - Supervised Machine learning** | Python (Scikit-Learn, Pandas)
 
-4 - **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
+4 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
 
-5 - **Montana State University A-B Testing** | Python (Pandas)
+5 - **Tableau Data Visualization & Dashboard Projects** | Tableau, SQL
 
-6 - **Hypothesis Testing Projects** | Python (Pandas)
+6 - **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
 
 7 - **Youtube Web Scraping - EDA Project** | Python (Pandas)
 
-8 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
+8 - **Montana State University A-B Testing** | Python (Pandas)
+
+9 - **Hypothesis Testing Projects** | Python (Pandas)
+
 
 ________________________
 
