@@ -9,11 +9,11 @@ ________________________
 
 2 - **Eniac Data Cleaning and Storytelling** | Python (Pandas, Seaborn, Matplotlib)
 
-3 - **House Prices Prediction - Supervised Machine learning** | Python (Scikit-Learn, Pandas)
+3 - **Tableau Data Visualization & Dashboard Projects** | Tableau, SQL
 
-4 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
+4 - **House Prices Prediction - Supervised Machine learning** | Python (Scikit-Learn, Pandas)
 
-5 - **Tableau Data Visualization & Dashboard Projects** | Tableau, SQL
+5 - **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
 
 6 - **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
 
