@@ -7,7 +7,7 @@ ________________________
 
 1 - **SQL Data Driven Businesses** | SQL
 
-2 - **Eniac Data Cleaning and Storytelling** | Python (Pandas, Seaborn)
+2 - **Eniac Data Cleaning and Storytelling** | Python (Pandas, Seaborn, Matplotlib)
 
 3 - **House Prices Prediction - Supervised Machine learning** | Python (Scikit-Learn, Pandas)
 
@@ -17,7 +17,7 @@ ________________________
 
 6 - **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
 
-7 - **Youtube Web Scraping - EDA Project** | Python (Pandas)
+7 - **Youtube Web Scraping - EDA Project** | Python (Pandas,Seaborn, Matplotlib)
 
 8 - **Montana State University A-B Testing** | Python (Pandas)
 
