@@ -1,4 +1,5 @@
 # Supervised Machine Learning
+## House Prices Prediction
 
 <img width="769" alt="Machine_Learning_Terminology" src="https://user-images.githubusercontent.com/90986708/225607491-9090aa23-fbad-4047-b01c-8c2adce48ae2.png">
 
