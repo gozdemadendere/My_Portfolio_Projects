@@ -21,7 +21,6 @@ ________________________
 
 8 - **Montana State University A-B Testing** | Python (Pandas)
 
-9 - **Hypothesis Testing Projects** | Python (Pandas)
 
 
 ________________________
