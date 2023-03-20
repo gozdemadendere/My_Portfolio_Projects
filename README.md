@@ -1,6 +1,6 @@
 ### 📊 Portfolio Projects
 
-[My Data Science portfolio projects](https://github.com/gozdebarin/My_Portfolio_Projects) using Python (Pandas, Seaborn, Matplotlib, Scikit-learn), SQL, Tableau, Machine Learning.
+My Data Science portfolio projects using Python (Pandas, Seaborn, Matplotlib, Scikit-learn), SQL, Tableau, Machine Learning.
 
 - **Data Driven Businesses**  |  SQL
 
