@@ -1,7 +1,6 @@
 ### 📊 Portfolio Projects
 
-My Data Science / Analysis projects using Python (Pandas, Seaborn, Matplotlib, Scikit-learn), SQL, Tableau, Machine Learning:
-https://github.com/gozdebarin/My_Portfolio_Projects
+[My Data Science portfolio projects](https://github.com/gozdebarin/My_Portfolio_Projects) using Python (Pandas, Seaborn, Matplotlib, Scikit-learn), SQL, Tableau, Machine Learning.
 
 - **Data Driven Businesses**  |  SQL
 
@@ -24,7 +23,6 @@ My Data Visualization Projects - Dashboards using **Tableau & SQL**:
 - [Retail Analytics Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/Dashboard_2d/Dashboard1)
 - [Employees Analytics Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/EmployeesAnalyticsDashboard/EmployeesAnalyticsDashboard)
 ________________________
-
 ### 💻 Languages and Tools
 
 - **SQL** | Query and data modeling
