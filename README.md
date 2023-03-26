@@ -14,14 +14,15 @@ My Data Science portfolio projects using Python (Pandas, Seaborn, Matplotlib, Sc
 
 - **Youtube Web Scraping - EDA Project** | Python (Pandas,Seaborn, Matplotlib)
 
-- **Montana State University A-B Testing** | Python (Pandas)
+- **Montana State University A/B Testing** | Python (Pandas)
 
-### 📈 Dashboard Projects
+- [Retail Analytics - Interactive Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/Dashboard_2d/Dashboard1)  |  Tableau, SQL
 
-My Data Visualization Projects - Dashboards using **Tableau & SQL**:
+- [Employees Analytics - Interactive Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/EmployeesAnalyticsDashboard/EmployeesAnalyticsDashboard)   |  Tableau, SQL
 
-- [Retail Analytics Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/Dashboard_2d/Dashboard1)
-- [Employees Analytics Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/EmployeesAnalyticsDashboard/EmployeesAnalyticsDashboard)
+- **Interactive Excel Dashboard** | MS Excel
+
+
 ________________________
 
 ### 💻 Skiills
@@ -34,13 +35,15 @@ ________________________
 
 - **Tableau** | Data visualization & data storytelling
 
+- **Machine Learning** | Scikit-Learn
+
 - **A/B Testing** | Hypothesis Tests
 
 - **Data Engineering** | Web Scraping, API Pipelines, AWS Cloud Computing
 
-- **Machine Learning** | Scikit-Learn
-
 - **Recommender Systems**
+
+- **Microsoft Excel**
 
 ________________________
 
