@@ -16,11 +16,9 @@ My Data Science portfolio projects using Python (Pandas, Seaborn, Matplotlib, Sc
 
 - **Montana State University A/B Testing** | Python (Pandas)
 
-- [Retail Analytics - Interactive Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/Dashboard_2d/Dashboard1)  |  Tableau, SQL
+- [Tableau Dashboard Projects](https://public.tableau.com/app/profile/gozdebarin) | Tableau
 
-- [Employees Analytics - Interactive Dashboard](https://public.tableau.com/app/profile/gozdebarin/viz/EmployeesAnalyticsDashboard/EmployeesAnalyticsDashboard)   |  Tableau, SQL
-
-- **Interactive Excel Dashboard** | MS Excel
+- [Interactive Excel Dashboard](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard) | MS Excel
 
 
 ________________________
@@ -33,7 +31,7 @@ ________________________
 
 - **Python** | Pandas, NumPy, Matplotlib, Seaborn
 
-- **Tableau** | Data visualization & data storytelling
+- **Tableau** | Data visualization & Data Storytelling
 
 - **Machine Learning** | Scikit-Learn
 
