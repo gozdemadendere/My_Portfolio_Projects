@@ -10,7 +10,7 @@ Dashboards provide several valuable benefits:
 - Improves decision making
 - Simplifies performance checks.
  
-You can access the interactive dashboards from [this link.](https://public.tableau.com/app/profile/gozdebarin)
+You can access my interactive dashboards from [this link.](https://public.tableau.com/app/profile/gozdebarin)
 _________________________
 
 <img width="1409" alt="Screen Shot 2023-03-26 at 4 46 52 PM" src="https://user-images.githubusercontent.com/90986708/227783733-59dd2626-7a63-467e-827b-3cac8949e106.png">
