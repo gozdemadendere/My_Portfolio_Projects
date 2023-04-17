@@ -1,4 +1,4 @@
-## Python | Eniac Data Cleaning & Storytelling
+## Eniac Data Cleaning & Storytelling | Python 
 
 ### Project Objectives & Overview
 #### 1. Business Problem
@@ -48,5 +48,3 @@ Business questions:
 - Descriptive Statistics
 
 - Data Visualization
-
-
