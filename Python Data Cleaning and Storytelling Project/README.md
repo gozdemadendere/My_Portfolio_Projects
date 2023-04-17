@@ -31,22 +31,22 @@ Business questions:
 
 📌 Technologies
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Jupyter Notebook / Google Collab
+- Jupyter Notebook / Google Collab
 
 📌 Methods Used
 
-Data Cleaning
+- Data Cleaning
 
-Descriptive Statistics
+- Descriptive Statistics
 
-Data Visualization
+- Data Visualization
 
 
