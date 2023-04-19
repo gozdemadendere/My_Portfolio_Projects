@@ -1,4 +1,4 @@
-## Eniac Data Exploration | SQL
+## Eniac Business Analysis  & Data Exploration | SQL
 
 ### Project Objectives & Overview
 #### 1. Overview
