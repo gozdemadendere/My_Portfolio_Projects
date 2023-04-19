@@ -31,13 +31,7 @@ Business questions:
 
 📌 Technologies
 
-- Python
-
-- Pandas
-
-- Matplotlib
-
-- Seaborn
+- Python (Pandas, Matplotlib, Seaborn)
 
 - Jupyter Notebook / Google Collab
 
