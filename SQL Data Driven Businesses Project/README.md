@@ -16,40 +16,7 @@ In this project, I analyzed a real-world dataset gaining the following skills:
 - **SQL Analysis:** This is where I thought analytically and answer many analytical questions using advanced SQL techniques. This part includes JOINS, CASE statements.
 
 
-
-### 1.3. BUSINESS QUESTIONS
-
-In relation to the products:
-
-- What categories of tech products does Magist have?
-
-- How many products of these tech categories have been sold (within the time window of the database snapshot)?
-
-- What percentage does that represent from the overall number of products sold?
-
-- What’s the average price of the products being sold?
-
-- Are expensive tech products popular? *
-
-In relation to the sellers:
-
-- How many months of data are included in the magist database?
-
-- How many sellers are there? How many Tech sellers are there? What percentage of overall sellers are Tech sellers?
-
-- What is the total amount earned by all sellers? What is the total amount earned by all Tech sellers?
-
-- Can you work out the average monthly income of all sellers? Can you work out the average monthly income of Tech sellers?
-
-In relation to the delivery time:
-
-- What’s the average time between the order being placed and the product being delivered?
-
-- How many orders are delivered on time vs orders delivered with a delay?
-
-- Is there any pattern for delayed orders, e.g. big products being delayed more often?
-
-### 1.4. METHODS & TECHNOLOGIES
+### 1.3. METHODS & TECHNOLOGIES
 📌 Methods Used
 
 - SQL Functions
