@@ -1,9 +1,0 @@
-number_of_orders,delivery_date_check,weight_categories
-774,ON_time,"VERY HEAVY 20kg+"
-139,delayed,"VERY HEAVY 20kg+"
-7934,ON_time,"MEDIUM 5kg+"
-750,delayed,"MEDIUM 5kg+"
-90297,ON_time,"LIGHT <5kg"
-8344,delayed,"LIGHT <5kg"
-3926,ON_time,"HEAVY 10kg+"
-486,delayed,"HEAVY 10kg+"
