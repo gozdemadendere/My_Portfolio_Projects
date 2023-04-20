@@ -63,7 +63,7 @@ ORDER BY Average_Price DESC;
 
 ## In relation to the sellers:
 
--- 1) How many months of data are included in the magist database?
+-- 5) How many months of data are included in the magist database?
 
 SELECT TIMESTAMPDIFF(MONTH, min, max) 
 FROM
@@ -74,7 +74,7 @@ FROM
 SELECT TIMESTAMPDIFF(DAY,'2016-09-04' , '2018-10-17');
 
 
--- 2) How many sellers are there? How many Tech sellers are there? What percentage of overall sellers are Tech sellers?
+-- 6) How many sellers are there? How many Tech sellers are there? What percentage of overall sellers are Tech sellers?
 
 SELECT  tech_sellers_count, all_sellers_count , ( tech_sellers_count / all_sellers_count ) * 100 AS percentage 
 FROM 
@@ -91,7 +91,7 @@ FROM
 	WHERE product_category_name_english IN ('telephony', 'computers_accessories', 'electronics', 'computers', 'audio')) AS SUB_TABLE;
 
 
--- 3) What is the total amount earned by all sellers? What is the total amount earned by all Tech sellers?
+-- 7) What is the total amount earned by all sellers? What is the total amount earned by all Tech sellers?
 
 SELECT ROUND(sum(price)) as Revenue
 FROM order_items;
@@ -107,7 +107,7 @@ WHERE product_category_name_english IN ('telephony', 'computers_accessories', 'e
 GROUP BY product_category_name_english;
 
 
--- 4) Can you work out the average monthly income of all sellers? Can you work out the average monthly income of Tech sellers?
+-- 8) Can you work out the average monthly income of all sellers? Can you work out the average monthly income of Tech sellers?
 
 SELECT ROUND((SELECT SUM(payment_value)
 FROM order_payments) / (SELECT (TIMESTAMPDIFF(MONTH, MIN(order_purchase_timestamp), MAX(order_purchase_timestamp)))
@@ -128,14 +128,14 @@ WHERE product_category_name_english IN ('telephony', 'computers_accessories', 'e
 
 ## In relation to the delivery time:
 
--- 1) What’s the average time between the order being placed and the product being delivered?
+-- 9) What’s the average time between the order being placed and the product being delivered?
 
 SELECT ROUND(AVG(TIMESTAMPDIFF(DAY, order_purchase_timestamp, order_delivered_customer_date)),2) AS Average_time_in_days
 FROM orders;
 
 
 
--- 2) How many orders are delivered on time vs orders delivered with a delay?
+-- 10) How many orders are delivered on time vs orders delivered with a delay?
 
 SELECT delivery_status, COUNT(*)
 FROM 
@@ -185,7 +185,7 @@ HAVING
     
     
 
--- 3) Is there any pattern for delayed orders, e.g. big products being delayed more often?
+-- 11) Is there any pattern for delayed orders, e.g. big products being delayed more often?
 
 SELECT count(o.order_id) AS number_of_orders,
 CASE
