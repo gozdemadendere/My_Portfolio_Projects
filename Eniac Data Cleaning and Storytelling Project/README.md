@@ -42,3 +42,25 @@ Business questions:
 - Descriptive Statistics
 
 - Data Visualization
+
+
+<img width="1286" alt="Screen Shot 2023-04-21 at 12 32 02 AM" src="https://user-images.githubusercontent.com/90986708/233501006-24c8893c-6633-4d0a-a5a0-b847fee7bf4d.png">
+
+
+<img width="1286" alt="Screen Shot 2023-04-21 at 12 32 12 AM" src="https://user-images.githubusercontent.com/90986708/233501055-9efe3807-4f8e-42bf-b15c-a79172a649de.png">
+
+<img width="1286" alt="Screen Shot 2023-04-21 at 12 32 19 AM" src="https://user-images.githubusercontent.com/90986708/233501064-c73b46ad-6207-4d27-9048-cc91c49a5424.png">
+
+
+<img width="1286" alt="Screen Shot 2023-04-21 at 12 32 28 AM" src="https://user-images.githubusercontent.com/90986708/233501072-a6a1ce22-fb6b-4724-89bb-a487f51313a5.png">
+
+<img width="1286" alt="Screen Shot 2023-04-21 at 12 32 36 AM" src="https://user-images.githubusercontent.com/90986708/233501085-e2d748ce-8cc2-488a-981f-a79993e7a648.png">
+
+
+
+
+
+
+
+
+
