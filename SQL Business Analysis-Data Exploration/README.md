@@ -2,17 +2,13 @@
 
 ### Project Objectives & Overview
 #### 1. Overview
-The company: Eniac is an online marketplace specializing in Apple-compatible accessories.
-
-Here are some numbers that will help you understand Eniac’s scope (data from April 2017 – March 2018):
-
-Revenue: 40,044,542 € , Avg monthly revenue: 1,011,256 € , Avg order price: 710 € , Avg item price: 540 €
+The company: Eniac is an online-shop. Eniac’s catalog is 100% tech products, and heavily based on Apple-compatible (high-end) accessories.
 
 #### 2. Purpose of the Project
 
 The main objective of this project is whether to recommend Eniac to sign a contract with Magist, a Brazilian Software company that offers a centralized order management system.
 
-Eniac’s catalog is 100% tech products, and heavily based on Apple-compatible accessories. It is not clear that the marketplaces Magist works with are a good place for these high-end tech products.
+It is not clear that the marketplaces Magist works with are a good place for these high-end tech products.
 
 Among Eniac’s efforts to have happy customers, fast deliveries are key. Are deliveries fast enough on Magist?
 
