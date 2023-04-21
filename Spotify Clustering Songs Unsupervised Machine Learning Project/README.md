@@ -26,21 +26,10 @@ A couple of assessments will have to be made:
 #### 4. Technologies & Methods
 Technologies
 
-- Python (Scikit-Learn, Pandas, Matplotlib)
-
-- Requests (API)
+- Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
 
 
 Methods Used
 
-- Unsupervised Machine Learning
-
-- API-Calls
-
-- Data Engineering
-
-- Data Visualization
-
-
-
+- Unsupervised Machine Learning, API-Calls, Data Engineering, Data Visualization
 
