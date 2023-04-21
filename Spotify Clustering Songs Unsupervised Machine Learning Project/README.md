@@ -1,35 +1,46 @@
-## UNSUPERVISED MACHINE LEARNING | CLUSTERING SONGS
-### 1.Project description
-#### 1.1. Introduction
-The purpose of this project is to use K-means clustering algorithm to cluster similar songs, thus creating playlists in an automated way.
+## Spotify Clustering Sogs | Unsupervised Machine Learning
+### Project Objectives & Overview
+#### 1. Overview
 
-#### 1.2. Business Problem / Objective
-Automate the building of Spotify playlists using the spotipy API using K-means clustering algorithm to cluster similar songs in playlists
+Moosic is a little start-up that creates curated playlists in old and new trends.
 
-#### 1.3. Dataset
-I will use a database with 5000 songs.
+Users can subscribe to their website and listen to these playlists through their preferred Music App (Spotify, Apple Music, Youtube Music). They would like that their playlists have a specific "mood" or "style."
 
-#### 1.4. Methods & Technologies
-Methods Used
+#### 2. Purpose of the Project
+The purpose of this project is to cluster similar songs using K-means clustering algorithm and Spotipy API, thus automatically creating Spotify playlists.
 
-API-Calls
+A couple of assessments will have to be made:
 
-Data Engineering
+- Are Spotify’s audio features able to categorize music with similar songs?
+- Is K-Means a good method to create playlists? 
 
-Data Visualization
+#### 3. Conclusions
 
-Unsupervised Machine Learning
+- Spotify's audio features manages to get logical playlists
 
+- K-Means method create playlist based on certain audio features, so it may not always produce pleasant sets of songs
+
+- It may be useful to use other features such as genre labelling to improve clustering
+
+
+#### 4. Technologies & Methods
 Technologies
 
-Python
+- Python (Scikit-Learn, Pandas, Matplotlib)
 
-Pandas
+- Requests (API)
 
-Jupyter Notebook
 
-Requests (api)
+Methods Used
 
-Matplotlib
+- Unsupervised Machine Learning
 
-SciKit Learn
+- API-Calls
+
+- Data Engineering
+
+- Data Visualization
+
+
+
+
