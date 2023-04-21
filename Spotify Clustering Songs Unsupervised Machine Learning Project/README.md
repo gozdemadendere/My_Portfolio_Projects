@@ -28,8 +28,6 @@ Technologies
 
 - Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
 
-
 Methods Used
 
 - Unsupervised Machine Learning, API-Calls, Data Engineering, Data Visualization
-
