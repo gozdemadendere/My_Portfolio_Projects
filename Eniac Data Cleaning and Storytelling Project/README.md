@@ -3,9 +3,9 @@
 ### Project Objectives & Overview
 #### 1. Business Problem
 
-Eniac is an E-Commerce company. Its catalog is 100% technology products, mainly based on Apple compatible (high quality) accessories.
+Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 
-Specifically, they ask us to analyze and advise whether it is beneficial to discount products.
+Specifically, they ask us to analyze and advise **whether it is beneficial to discount products.**
 
 #### 2. Purpose of the Project
 The main goal of this project is to implement the data cleaning and data quality process, which includes:
@@ -18,15 +18,9 @@ The main goal of this project is to implement the data cleaning and data quality
 
 In addition, we should answer some business questions about the use of discounts for the Eniac company.
 
-#### 3. Technologies & Methods
-
-Technologies
+#### 3. Technical Skills
 
 - Python (Pandas, Matplotlib, Seaborn)
-
-Methods Used
-
-- Data cleaning, data exploration, data visualization
 
 #### 4. Conclusions & Recommendation
 
@@ -39,16 +33,20 @@ Methods Used
 
 #### 5. Improvement of Data Collection
 
-- Data quality must be ensured as there are many missing values and mismatches.
+- Price: Formatting of price should be standardized (with two decimals).
 
-- Formatting of price should be standardized.
+- Remove/ Reject Duplicates: Data quality must be ensured as there are many missing values and duplicates.
+
+- Datetime-Format: Automatically import date-inputs as datetime-format
 
 - All data regarding orders should collected in one data frame.
 
-- Share specific details about the discounts like: general, individualised etc.
+- Column Names: Columns to have the same name if they contain the same information
+
+- Discounts: Share specific details about the discounts like: general, individualised etc.
 
 _____________
-**Some of the conclusions and Visualizations:**
+### Python Visualizations:
 
 <img width="1286" alt="Screen Shot 2023-04-21 at 12 32 02 AM" src="https://user-images.githubusercontent.com/90986708/233501006-24c8893c-6633-4d0a-a5a0-b847fee7bf4d.png">
 
