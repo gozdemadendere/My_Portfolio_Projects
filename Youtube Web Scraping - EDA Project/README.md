@@ -11,17 +11,12 @@ For new creators, it's hard to understand why one video gets lots of views and o
 
 In this project my aim is to explore statistics of a successful Data Science Youtube channel to gain some insights on this topic which might be useful.
 
-**Steps of this project:**
+Steps of this project:
 - Obtain video meta data via Youtube API for the channel (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
-
 - Prepocess data and engineer additional features for analysis
-
 - Exploratory data analysis
 
 
 #### 3. Technical Skills
 
 - Python (Pandas, Seaborn, Matplotlib)
-
-
-
