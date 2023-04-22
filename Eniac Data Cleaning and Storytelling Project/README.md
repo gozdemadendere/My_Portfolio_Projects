@@ -22,9 +22,9 @@ In addition, we should answer some business questions about the use of discounts
 
 - Python (Pandas, Matplotlib, Seaborn)
 
-#### 4. Conclusions & Recommendation
+#### 4. Conclusions
 
-- My recommendation is, discounts should continue, but with a fixed upper limit of 30%. Because more revenue is provided with discounts of up to 30%. 
+**Final Recommendation:** Discounts should continue, but with a fixed upper limit of 30% as more revenue is provided with discounts of up to 30%. 
 
 - Discounts in the Storage & Memory category are more beneficial & in the Accessories category are not really beneficial.
 
