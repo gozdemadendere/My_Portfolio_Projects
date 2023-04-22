@@ -2,10 +2,21 @@
 
 ________________
 
+
+## Kevin Cookie Company Interactive Dashboard | MS Excel
+
+### Project Objectives & Overview
+#### 1. Purpose of the Project
+
 I've created Dashboard using Excel to highlight the most important information and key performance indicators (KPIs) for Kevin Cookie Company.
 The dashboard is dynamic & interactive and adjusts depending on the country, months, and products selected via the slicer.
 
-I used the following skills to manipulate the data and create the dashboard:
+The data for this dashboard was downloaded from [Kaggle](https://www.kaggle.com/datasets/lawrencestratvert/kevin-cookie-company-financial-analysis).
+
+
+#### 2. Technical Skills
+
+I used the following MS Excel skills to manipulate the data and create the dashboard:
 - Pivot Tables
 - Charting
 - Slicers
@@ -13,4 +24,3 @@ I used the following skills to manipulate the data and create the dashboard:
 - Data manipulation
 - Aggregate Functions
 
-The data for this dashboard was downloaded from [Kaggle](https://www.kaggle.com/datasets/lawrencestratvert/kevin-cookie-company-financial-analysis).
