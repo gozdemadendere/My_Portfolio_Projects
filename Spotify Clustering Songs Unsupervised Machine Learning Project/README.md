@@ -14,7 +14,13 @@ A couple of assessments will have to be made:
 - Are Spotify’s audio features able to categorize music with similar songs?
 - Is K-Means a good method to create playlists? 
 
-#### 3. Conclusions
+#### 3. Technical Skills
+
+- Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
+
+- Unsupervised Machine Learning Algorithms (K-Means Clustering)
+
+#### 4. Conclusions
 
 - Spotify's audio features manages to get logical playlists
 
@@ -22,12 +28,3 @@ A couple of assessments will have to be made:
 
 - It may be useful to use other features such as genre labelling to improve clustering
 
-
-#### 4. Technologies & Methods
-Technologies
-
-- Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
-
-Methods Used
-
-- Unsupervised Machine Learning, API-Calls, Data Engineering, Data Visualization
