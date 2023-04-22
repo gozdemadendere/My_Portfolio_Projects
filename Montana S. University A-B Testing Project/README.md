@@ -1,4 +1,4 @@
-## A/B Testing - Montana State University | Python
+## A/B Testing - Montana University Website Homepage | Python
 
 ### Project Objectives & Overview
 #### 1. Overview
