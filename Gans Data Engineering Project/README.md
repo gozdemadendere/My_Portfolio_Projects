@@ -1,60 +1,47 @@
 ## GANS | Data Pipeline with API's and Amazon AWS
-### 1. PROJECT OBJECTIVES & OVERVIEW
-#### 1.1. INTRODUCTION
-Gans is a startup developing an e-scooter-sharing system. My task was to collect data from external sources that can potentially help Gans to predict e-scooter movement.
 
-The purpose of this project is to learn dealing with API's and JSON files. Data had to be requested, structured, and visualized. First a database is built in mySQL Workbench based on the data. Then the scripts are transferred to the cloud (Amazon Web Services) and scheduled to be executed every 24 hours. Iteratively, an SQL database of weather and flight-information is built in the cloud.
+📌 My Medium article about this project: [Data Engineering Pipeline with Python](https://medium.com/@gozdebarin/data-engineering-pipeline-with-python-fb4a23e79af)
 
-📢📢📢 There is a Medium article about this project at:
+### Project Objectives & Overview
+#### 1. Business Problem
+Gans is a startup developing an e-scooter-sharing system.
 
-#### 1.2. STEPS OF THE PROJECT
-The main objective of my project is to learn the data engineering process which contains:
+It aims to operate in the most populated cities all around the world. In each city, it will have hundreds of e-scooters parked on the streets and allow users to rent them by the minute.
 
-- Collect data: data collection via web scraping or Application Programming Interfaces (APIs)
-- Set up a local database on MySQL: a database creation in MySQL for data storage
-- Create a Data Pipeline to the Cloud: use Amazon Web Services (AWS) to move the pipeline to the cloud
-- Automate the Data Pipeline: automate the whole data collection and storage process
+#### 2. Purpose of the Project
 
-#### 1.3. DATASET
-The data gathered is freely available:
+The aim of this project is to collect data from external sources that can potentially help Gans to predict e-scooter movement.
 
-Cities Data -> Wikipedia
+#### 3. Steps of the Project
 
-Weather Data -> OpenWeatherMap
+- Data Collection: collect data via web scraping or API (Application Programming Interfaces)
+- Data Storage: create a Database on a local MySQL instance and store the collected data there
+- Pipeline to the Cloud: use Amazon Web Services (AWS) to move the pipeline to the cloud
+- Pipeline Automation: automate the whole data collection and storage process
 
-Airports Data -> Rapid API (AeroBox)
 
-Flights Data -> Rapid API (AeroBox)
+#### 4. Data Collection
 
-#### 1.4. METHODS & TECHNOLOGIES
-🔹 Methods Used
+The data is collected from:
 
-API-Calls
+- Cities Data -> Wikipedia
+- Weather Data -> OpenWeatherMap
+- Airports Data -> Rapid API (AeroBox)
+- Flights Data -> Rapid API (AeroBox)
 
-Data Engineering
+#### 5. Technical Skills
 
-Data Visualization
+- Python (BeautifulSoup, Pandas, Seaborn, Matplotlib)
+- Requests (API) & Web Scraping
+- Amazon Web Services (AWS)
+- SQL, SQLAlchemy (Connect Python with MySQL)
 
-Cloud Computin
+#### 6. Project Summary
 
-Cloud Database
+The automated data pipeline in the cloud was implemented in the following steps:
 
-🔹 Technologies
+- Web scraping on a website (Wikipedia) to collect demographic data
+- Using APIs to collect weather, airport, and flight data (OpenWeatherMap & AeroDataBox APIs)
+- Creating a database on a local MySQL instance to store data from various data sources
+- Moving the script and data to the cloud using Amazon Web Services (AWS) and automating the data development pipeline
 
-Python
-
-Pandas
-
-BeautifulSoup
-
-Jupyter Notebook
-
-Requests (api)
-
-Matplotlib
-
-Amazon Webservices
-
-SQL
-
-Sqlalchemy
