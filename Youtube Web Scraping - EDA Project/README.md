@@ -1,16 +1,27 @@
-## YOUTUBE | EXPLORATORY DATA ANALYSIS (EDA)
-### 1. Aims, objectives and background
+## YOUTUBE Web Scraping & Exploratory Data Analysis (EDA)| Python 
+
+### Project Objectives & Overview
+#### 1. Business Problem
+
 Youtube was founded in 2005 and has grown to become the second largest search engine in the world (behind Google) that processes more than 3 billion searches per month.
 
-For new content creators, it is a challenge to understand why a video gets video and others do not. There are many "myths" around the success of a Youtube video, for example if the video has more likes or comments, or if the video is of a certain duration.
+For new creators, it's hard to understand why one video gets lots of views and others don't. There are many "myths" around the success of a Youtube video, such as getting more likes or comments, or if the video is of a certain duration.
 
-I decided to gain some insights on this topic which might be useful for new content creators. The scope of this project is limited to one data science channel and I will not consider other niches (which may have different characteristics and audience base). So, in this project we will explore statistics of a successful data science Youtube channel.
+#### 2. Purpose of the Project
 
-### 2. Steps of the project
-- Obtain video meta data via Youtube API for a channels in the data science niche (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
+In this project my aim is to explore statistics of a successful Data Science Youtube channel to gain some insights on this topic which might be useful.
+
+**Steps of this project:**
+- Obtain video meta data via Youtube API for the channel (this includes several small steps: create a developer key, request data and transform the responses into a usable data format)
 
 - Prepocess data and engineer additional features for analysis
 
 - Exploratory data analysis
 
-- Conclusions
+
+#### 3. Technical Skills
+
+- Python (Pandas, Seaborn, Matplotlib)
+
+
+
