@@ -1,37 +1,28 @@
-### 📊 Portfolio Projects
 
-My Data Science portfolio projects using Python (Pandas, Seaborn, Matplotlib, Scikit-learn), SQL, Tableau, Machine Learning.
+### 📊 My Portfolio Projects
 
-- **Data Driven Businesses**  |  SQL
-
-- **Eniac Data Cleaning and Storytelling**  |  Python (Pandas, Seaborn, Matplotlib)
-
-- **House Prices Prediction - Supervised Machine learning** | Python (Scikit-Learn, Pandas)
-
-- **Spotify Clustering Songs - Unsupervised Machine learning** | Python (Scikit-Learn, Pandas)
-
-- **Gans Data Engineering & Data Pipeline** | Python (Pandas, Seaborn)
-
-- **Youtube Web Scraping - EDA Project** | Python (Pandas,Seaborn, Matplotlib)
-
-- **Montana State University A/B Testing** | Python (Pandas)
-
-- [Tableau Dashboard Projects](https://public.tableau.com/app/profile/gozdebarin) | Tableau
-
+- [Heart Attack Prediction App ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning)| Supervised Machine Learning, Python (Scikit-Learn, Plotly, Pandas), Streamlit 
+- [Business Analysis & Data Exploration ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration) |  SQL, Tableau
+- [Eniac Data Cleaning & Storytelling](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project)  |  Python (Pandas, Seaborn, Matplotlib)
+- [Tableau Interactive Dashboard Projects](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Tableau%20Data%20Visualization%20Projects) | Tableau
+- [House Prices Prediction ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning) | Supervised Machine Learning, Python (Scikit-Learn, Pandas)
+- [Spotify Clustering Songs ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Spotify%20Clustering%20Songs%20Unsupervised%20Machine%20Learning%20Project) | Unsupervised Machine Learning, Python (Scikit-Learn, Pandas)
+- [Heart Attack Exploratory Data Analysis (EDA) ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis)| Python (Plotly, Pandas, Seaborn, Matplotlib) 
+- [A/B Testing - Montana University Website Homepage ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Montana%20S.%20University%20A-B%20Testing%20Project) | Python (Pandas)
+- [Gans Data Engineering Pipeline](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project) | Python (BeautifulSoup, Pandas, Seaborn), Requests (API)
+- [Movie Recommender System](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Movie%20Recommender%20System)
 - [Interactive Excel Dashboard](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard) | MS Excel
-
 
 ________________________
 
-### 💻 Skiills
+### 💻 Technical Skills
 
-<p align=   "left">   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-1024.png" alt="python" width="40" height="40"/> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-1024.png" alt="mysql" width="40" height="40"/> </a> <a href="https://public.tableau.com/app/profile/gozdebarin" target="_blank" rel="noreferrer"> <img src="https://cdn2.iconfinder.com/data/icons/mixd/512/3_tableau-1024.png" alt="mysql" width="40" height="40"/> </a> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://matplotlib.org/stable/_images/sphx_glr_logos2_001_2_0x.png" alt="matplotlib" width="40" height="40"/> </a> </p>
 
-- **SQL** | Query and data modeling
+- **SQL** | Query and Data Modeling
 
-- **Python** | Pandas, NumPy, Matplotlib, Seaborn
+- **Python** | Pandas,  Matplotlib, Seaborn, Plotly, Streamlit, NumPy, BeautifulSoup
 
-- **Tableau** | Data visualization & Data Storytelling
+- **Tableau** | Data Visualization & Data Storytelling
 
 - **Machine Learning** | Scikit-Learn
 
@@ -41,7 +32,9 @@ ________________________
 
 - **Recommender Systems**
 
-- **Microsoft Excel**
+- **Microsoft** | Excel, Word, Powerpoint
+
+<p align=   "left">   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-1024.png" alt="python" width="40" height="40"/> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/mysql-1024.png" alt="mysql" width="40" height="40"/> </a> <a href="https://public.tableau.com/app/profile/gozdebarin" target="_blank" rel="noreferrer"> <img src="https://cdn2.iconfinder.com/data/icons/mixd/512/3_tableau-1024.png" alt="mysql" width="40" height="40"/> </a> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://matplotlib.org/stable/_images/sphx_glr_logos2_001_2_0x.png" alt="matplotlib" width="40" height="40"/> </a>  <a href="https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://global-uploads.webflow.com/62014002185c7b256316ef63/6255a1110a24e5de8cfa2536_kn7ucNPv_400x400.png" alt="streamlit" width="40" height="40"/> </a> </p>
 
 ________________________
 
