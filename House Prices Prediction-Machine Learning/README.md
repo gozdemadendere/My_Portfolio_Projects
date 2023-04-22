@@ -1,4 +1,4 @@
-## House Prices Prediction | Supervised Machine Learning, Python (Scikit-Learn, Pandas)
+## House Prices Prediction | Supervised ML, Python (Scikit-Learn, Pandas)
 
 ### Project Objectives & Overview
 #### 1. Business Problem
