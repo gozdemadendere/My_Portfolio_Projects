@@ -1,4 +1,4 @@
-## House Prices Prediction | Supervised Machine Learning, Python
+## House Prices Prediction | Supervised Machine Learning
 
 ### Project Objectives & Overview
 #### 1. Business Problem
