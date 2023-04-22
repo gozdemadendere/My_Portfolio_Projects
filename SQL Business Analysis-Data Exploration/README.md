@@ -1,51 +1,87 @@
-## Eniac Business Analysis  & Data Exploration | SQL
+## Business Analysis  & Data Exploration | SQL & Tableau
 
 ### Project Objectives & Overview
 #### 1. Overview
-The company: Eniac is an online-shop. Eniac’s catalog is 100% tech products, and heavily based on Apple-compatible (high-end) accessories.
+Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 
 #### 2. Purpose of the Project
 
-The main objective of this project is whether to recommend Eniac to sign a contract with Magist, a Brazilian Software company that offers a centralized order management system.
+The main objective of this project is whether to recommend Eniac to sign a contract with Magist, a Software company that offers a centralized order management system.
 
-It is not clear that the marketplaces Magist works with are a good place for these high-end tech products.
+- It's not clear that the marketplaces Magist works with are a good place for high-quality tech products.
 
-Among Eniac’s efforts to have happy customers, fast deliveries are key. Are deliveries fast enough on Magist?
+- Among Eniac’s efforts to have happy customers, fast deliveries are key. Are deliveries fast enough on Magist?
 
-Thankfully, Magist has allowed Eniac to access a snapshot of their database. The data might have the answer to these concerns.
+Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL and visualizing with Tableau.
 
-I answer these concerns by exploring the data using SQL and visualize it using Tableau.
+#### 3. Technical Skills
 
-In this project, I analyzed Magist's dataset gaining the following skills:
+SQL (Data Analysis)
 
-- **SQL syntax and how to use SQL:** This part includes SELECT, SELECT DISTINCT, WHERE, AND, OR, IN, NOT IN, LIKE, wildcards, NULL, NOT NULL, ORDER BY.
+Tableau (Data Visualization)
+
+- **SQL Functions:** Includes SELECT, SELECT DISTINCT, WHERE, AND, OR, IN, NOT IN, LIKE, wildcards, NULL, NOT NULL, ORDER BY.
 
 - **SQL Aggregation:**  This part includes COUNT, COUNT DISTINCT, SUM, AVG, MAX, MIN, GROUP BY, and HAVING.
 
-- **SQL Analysis:** This is where I thought analytically and answer many analytical questions using advanced SQL techniques. This part includes JOINS, CASE statements, Subqueries.
+- **SQL Analysis:** This is where I thought analytically and answer the questions using advanced SQL techniques. This part includes JOINS, CASE statements, Subqueries.
 
-#### 3. Conclusions
 
-- Eniac's avg price 540 > Magist's avg price of tech products 132.
-- The avg monthly revenue of Eniac is 1,011,256 > 131,118 the avg monthly revenue of all Magist tech sellers.
-- The average delivery time is 12 days in Magist market, while Apple standard delivery time is 1-3 days.
+#### 4. Conclusions
 
 **Final Recommendation:** 
-There is a lack of data to make a better decision. However, according to the available data, Magist is not a good fit for high-end tech products. Therefore, I recommend that Eniac should not sign the contract with Magist.
+I recommend that Eniac should not sign the contract with Magist for the following reasons:
+
+- Mostly non-tech and cheap products are sold in Magist marketplaces.
+- There are 32.951 products in Magist Marketplaces and **90%** of them are **non-tech** products. But Eniac sells 100% technology products.
+- The average price of tech products in Magist Marketplaces is **€297**, but Eniac's Avg. Product Price is **€540**.
+- In Magist Marketplaces, **80%** of the revenue come from **non-tech** products.
+- The average delivery time is 12 days in Magist market, while Apple standard delivery time is 1-3 days.
+
+There is a lack of data to make a better decision.
+
+**However, according to the available data, Magist is not a good fit for high-quality tech products.**
+
+#### 5. Improvement of Data Collection
+- It would be great to see brand information for Magist Marketplaces as Eniac mostly sells Apple compatible (high quality) products.
+- It would be better to have product names and descriptions as they will give us more information.
+
+_______________
+### TABLEAU VIZUALIZATIONS
+#### How was the distribution of tech products and non-tech products?
+
+<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 37 PM" src="https://user-images.githubusercontent.com/90986708/233779969-10cf504f-5f1c-474d-9a26-ac3dd6d76544.png">
+
+_______________
+
+#### What’s the average price of the products being sold?
+
+<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 43 PM" src="https://user-images.githubusercontent.com/90986708/233779933-00ccd9d2-5ddb-4406-81fa-b8b6da52ca46.png">
+
+_______________
+
+#### Are expensive tech products popular? (Eniac's Avg. Product Price:540 €)
+
+<img width="809" alt="Screen Shot 2023-04-22 at 12 40 50 PM" src="https://user-images.githubusercontent.com/90986708/233779695-8e7df42a-0fe0-4d69-a84c-a58717d100a6.png">
+
+_______________
+
+#### How was the revenue distribution of tech products and non-tech products?
+
+<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 51 PM" src="https://user-images.githubusercontent.com/90986708/233779936-d0afa6fe-8337-4783-a85e-4d2d56ce656e.png">
+
+_______________
 
 
-#### 4. Technologies & Methods
 
-📌 Technologies
+ 
 
-- MySQL
 
-- Tableau
 
-📌 Methods Used
 
-- SQL Functions
 
-- Data Analysis
 
-- Data Visualization
+
+
+
+
