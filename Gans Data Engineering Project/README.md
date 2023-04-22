@@ -1,4 +1,4 @@
-## GANS | Data Pipeline with API's and Amazon AWS
+## GANS Data Engineering Pipeline with API's | Python
 
 📌 My Medium article about this project: [Data Engineering Pipeline with Python](https://medium.com/@gozdebarin/data-engineering-pipeline-with-python-fb4a23e79af)
 
