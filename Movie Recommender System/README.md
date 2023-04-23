@@ -21,6 +21,8 @@ The main objective of this project will be to create 3 different recommender sys
 - Item Based Recommender
 - User Based Recommender
 
+<img width="890" alt="Screen Shot 2023-04-23 at 5 02 00 PM" src="https://user-images.githubusercontent.com/90986708/233847656-2fb121de-9004-45d7-a7a5-27c6811f01db.png">
+
 #### 3. Technical Skills
 
 - Python (Pandas, Scikit-learn)
