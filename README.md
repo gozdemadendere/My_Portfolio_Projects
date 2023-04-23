@@ -1,16 +1,28 @@
 
+ ### 📌 About Me
+
+- I'm a Data Scientist / Data Analyst.  I have a Bachelor of Science in Statistics and have 3 years of work experience. In my previous jobs, I was responsible for analyzing, interpreting, visualizing data using Excel, Tableau, and basic SQL functions. Thus I've gained strong numerical and analytical skills,  and developed my communication and teamwork skills.
+
+- I've always had a strong passion for improving my programming skills using Python and SQL, and I achieved this after attending an intensive Data Science Bootcamp at WBS Coding School, Berlin, Germany.
+
+- I've successfully completed about 10 projects using Python, SQL, Tableau, and Machine Learning algorithms.
+
+- I'm passionate about coding, self-improvement, healthy living, traveling.
+
+________________________
+ 
 ### 📊 My Portfolio Projects
 
 - [Heart Attack Prediction App ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning)| Supervised Machine Learning, Python (Scikit-Learn, Plotly, Pandas), Streamlit 
+- [Heart Attack Exploratory Data Analysis (EDA) ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis)| Python (Plotly, Pandas, Seaborn, Matplotlib) 
 - [Business Analysis & Data Exploration ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration) |  SQL, Tableau
 - [Eniac Data Cleaning & Storytelling](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project)  |  Python (Pandas, Seaborn, Matplotlib)
 - [Tableau Interactive Dashboard Projects](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Tableau%20Data%20Visualization%20Projects) | Tableau
 - [House Prices Prediction ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning) | Supervised Machine Learning, Python (Scikit-Learn, Pandas)
 - [Spotify Clustering Songs ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Spotify%20Clustering%20Songs%20Unsupervised%20Machine%20Learning%20Project) | Unsupervised Machine Learning, Python (Scikit-Learn, Pandas)
-- [Heart Attack Exploratory Data Analysis (EDA) ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis)| Python (Plotly, Pandas, Seaborn, Matplotlib) 
 - [A/B Testing - Montana University Website Homepage ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Montana%20S.%20University%20A-B%20Testing%20Project) | Python (Pandas)
 - [Gans Data Engineering Pipeline](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project) | Python (BeautifulSoup, Pandas, Seaborn), Requests (API)
-- [Movie Recommender System](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Movie%20Recommender%20System)
+- [Movie Recommender System](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Movie%20Recommender%20System) | Python (Scikit-Learn, Pandas)
 - [Interactive Excel Dashboard](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard) | MS Excel
 
 ________________________
