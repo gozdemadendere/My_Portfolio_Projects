@@ -1,4 +1,4 @@
-## Spotify Clustering Sogs | Unsupervised Machine Learning
+## Spotify Clustering Songs | Unsupervised Machine Learning
 ### Project Objectives & Overview
 #### 1. Overview
 
