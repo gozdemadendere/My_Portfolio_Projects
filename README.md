@@ -1,16 +1,3 @@
-
- ### 📌 About Me
-
-- I'm a Data Scientist / Data Analyst.  I have a Bachelor of Science in Statistics and have 3 years of work experience. In my previous jobs, I was responsible for analyzing, interpreting, visualizing data using Excel, Tableau, and basic SQL functions. Thus I've gained strong numerical and analytical skills,  and developed my communication and teamwork skills.
-
-- I've always had a strong passion for improving my programming skills using Python and SQL, and I achieved this after attending an intensive Data Science Bootcamp at WBS Coding School, Berlin, Germany.
-
-- I've successfully completed about 10 projects using Python, SQL, Tableau, and Machine Learning algorithms.
-
-- I'm passionate about coding, self-improvement, healthy living, traveling.
-
-________________________
- 
 ### 📊 My Portfolio Projects
 
 - [Heart Attack Prediction App ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning)| Supervised Machine Learning, Python (Scikit-Learn, Plotly, Pandas), Streamlit 
