@@ -1,8 +1,9 @@
+
 ### 📊 My Portfolio Projects
 
 - [Heart Attack Prediction App ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning)| Supervised Machine Learning, Python (Scikit-Learn, Plotly, Pandas), Streamlit 
-- [Heart Attack Exploratory Data Analysis (EDA) ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis)| Python (Plotly, Pandas, Seaborn, Matplotlib) 
 - [Business Analysis & Data Exploration ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration) |  SQL, Tableau
+- [Heart Attack Exploratory Data Analysis (EDA) ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis)| Python (Plotly, Pandas, Seaborn, Matplotlib) 
 - [Eniac Data Cleaning & Storytelling](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project)  |  Python (Pandas, Seaborn, Matplotlib)
 - [Tableau Interactive Dashboard Projects](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Tableau%20Data%20Visualization%20Projects) | Tableau
 - [House Prices Prediction ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning) | Supervised Machine Learning, Python (Scikit-Learn, Pandas)
