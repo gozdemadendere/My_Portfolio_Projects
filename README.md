@@ -22,7 +22,7 @@ ________________________
 
 - **Python** | Pandas,  Matplotlib, Seaborn, Plotly, Streamlit, NumPy, BeautifulSoup
 
-- **Tableau** | Data Visualization & Data Storytelling
+- **Tableau** | Building Dashboards & Data Visualization
 
 - **Machine Learning** | Scikit-Learn
 
