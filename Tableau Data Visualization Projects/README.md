@@ -1,17 +1,14 @@
 
-### TABLEAU DASHBOARDS
+#### TABLEAU DASHBOARDS
 
 [See my Interactive Dashboard Projects here.](https://public.tableau.com/app/profile/gozdebarin)
 
-
-I love creating dashboards that help people see and understand their data
-using Tableau Business Intelligence tool.
+I love creating dashboards that help people see and understand their data using Tableau Business Intelligence tool.
 
 Dashboards provide a summary of company's analytical values, save time, improve decision making, simplify performance checks.
  
 
-
-#### My Tableau Technical Skills
+##### My Tableau Technical Skills
 
 - Building & designing dashboards
 - Visualizing SQL query results in Tableau
@@ -20,7 +17,6 @@ Dashboards provide a summary of company's analytical values, save time, improve 
 - Creating action filters
 - Calculated fields
 - Dual Axises
-
 _________________________
 
 <img width="1409" alt="Screen Shot 2023-03-26 at 4 46 52 PM" src="https://user-images.githubusercontent.com/90986708/227783733-59dd2626-7a63-467e-827b-3cac8949e106.png">
