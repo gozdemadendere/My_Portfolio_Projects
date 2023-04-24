@@ -67,7 +67,9 @@ _______________
 
 #### How was the revenue distribution of tech products and non-tech products?
 
-<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 51 PM" src="https://user-images.githubusercontent.com/90986708/233779936-d0afa6fe-8337-4783-a85e-4d2d56ce656e.png">
+<img width="1135" alt="Screen Shot 2023-04-25 at 12 15 45 AM" src="https://user-images.githubusercontent.com/90986708/234128348-6d4f37b6-bebd-4202-97c1-56ba59c79135.png">
+
+
 
 _______________
 
