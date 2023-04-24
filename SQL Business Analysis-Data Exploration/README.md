@@ -30,7 +30,10 @@ Tableau (Data Visualization)
 #### 4. Conclusions
 
 **Final Recommendation:** 
-I recommend that Eniac should not sign the contract with Magist for the following reasons:
+
+As a result of SQL queries and analysis, Magist may not be a good fit for Eniac.
+
+I recommend that Eniac **should not** sign the contract with Magist for the following reasons:
 
 - Mostly non-tech and cheap products are sold in Magist marketplaces.
 - There are 32.951 products in Magist Marketplaces and **90%** of them are **non-tech** products. But Eniac sells 100% technology products.
