@@ -1,16 +1,26 @@
 
 ### TABLEAU DASHBOARDS
 
-I love creating interactive dashboards that help people see and understand their data
+[See my Interactive Dashboard Projects here.](https://public.tableau.com/app/profile/gozdebarin)
+
+
+I love creating dashboards that help people see and understand their data
 using Tableau Business Intelligence tool.
 
-Dashboards provide several valuable benefits:
-- Provides visibility at a glance
-- Saves time and resources
-- Improves decision making
-- Simplifies performance checks.
+Dashboards provide a summary of company's analytical values, save time, improve decision making, simplify performance checks.
  
-You can access my interactive dashboards from [this link.](https://public.tableau.com/app/profile/gozdebarin)
+
+
+#### My Tableau Technical Skills
+
+- Building & designing dashboards
+- Visualizing SQL query results in Tableau
+- Bar Charts / Line Graphs / Pie Charts / Map Vizualisations
+- Preparing KPI boards
+- Creating action filters
+- Calculated fields
+- Dual Axises
+
 _________________________
 
 <img width="1409" alt="Screen Shot 2023-03-26 at 4 46 52 PM" src="https://user-images.githubusercontent.com/90986708/227783733-59dd2626-7a63-467e-827b-3cac8949e106.png">
