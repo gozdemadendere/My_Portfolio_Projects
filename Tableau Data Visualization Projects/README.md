@@ -1,7 +1,5 @@
 
-#### TABLEAU DASHBOARDS
-
-[See my Interactive Dashboard Projects here.](https://public.tableau.com/app/profile/gozdebarin)
+#### TABLEAU DASHBOARDS > [See my Interactive Dashboard Projects here.](https://public.tableau.com/app/profile/gozdebarin)
 
 I love creating dashboards that help people see and understand their data using Tableau Business Intelligence tool. Dashboards provide a summary of company's analytical values, save time, improve decision making, simplify performance checks.
  
