@@ -20,7 +20,7 @@ SQL (Data Analysis)
 
 Tableau (Data Visualization)
 
-- **SQL Functions:** Includes SELECT, SELECT DISTINCT, WHERE, AND, OR, IN, NOT IN, LIKE, wildcards, NULL, NOT NULL, ORDER BY.
+- **SQL Functions:** Includes SELECT, SELECT DISTINCT, WHERE, AND, OR, IN, NOT IN, BETWEEN LIKE, wildcards, NULL, NOT NULL, ORDER BY.
 
 - **SQL Aggregation:**  This part includes COUNT, COUNT DISTINCT, SUM, AVG, MAX, MIN, GROUP BY, and HAVING.
 
