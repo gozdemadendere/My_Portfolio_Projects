@@ -50,19 +50,18 @@ _______________
 ### TABLEAU VIZUALIZATIONS
 #### How was the distribution of tech products and non-tech products?
 
-<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 37 PM" src="https://user-images.githubusercontent.com/90986708/233779969-10cf504f-5f1c-474d-9a26-ac3dd6d76544.png">
+<img width="1084" alt="Screen Shot 2023-04-24 at 11 48 21 PM" src="https://user-images.githubusercontent.com/90986708/234124030-ed384b1f-41e6-4df5-834c-3d855f8162f7.png">
 
 _______________
 
 #### What’s the average price of the products being sold?
 
-<img width="1171" alt="Screen Shot 2023-04-22 at 12 53 43 PM" src="https://user-images.githubusercontent.com/90986708/233779933-00ccd9d2-5ddb-4406-81fa-b8b6da52ca46.png">
+<img width="1084" alt="Screen Shot 2023-04-24 at 11 49 47 PM" src="https://user-images.githubusercontent.com/90986708/234124245-1783ef8f-6756-4c90-a471-da2900e70d0b.png">
 
 _______________
 
 #### Are expensive tech products popular? (Eniac's Avg. Product Price:540 €)
-
-<img width="809" alt="Screen Shot 2023-04-22 at 12 40 50 PM" src="https://user-images.githubusercontent.com/90986708/233779695-8e7df42a-0fe0-4d69-a84c-a58717d100a6.png">
+<img width="1089" alt="Screen Shot 2023-04-25 at 12 08 38 AM" src="https://user-images.githubusercontent.com/90986708/234127271-5a9a0c3e-98b0-40ca-9335-375ab7a119e3.png">
 
 _______________
 
