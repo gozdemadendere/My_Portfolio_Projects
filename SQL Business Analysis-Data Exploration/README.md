@@ -46,7 +46,7 @@ There is a lack of data to make a better decision.
 **However, according to the available data, Magist is not a good fit for high-quality tech products.**
 
 #### 5. Improvement of Data Collection
-- It would be great to see brand information for Magist Marketplaces as Eniac mostly sells Apple compatible (high quality) products.
+- It would be great to see brand information for Magist Marketplaces as Eniac only sells Apple compatible (high quality) products.
 - It would be better to have product names and descriptions as they will give us more information.
 
 _______________
