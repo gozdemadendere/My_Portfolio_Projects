@@ -6,7 +6,7 @@ Eniac is an E-Commerce company that sells 100% technology products, mainly based
 
 #### 2. Purpose of the Project
 
-The main objective of this project is whether to recommend Eniac to sign a contract with Magist, a Software company that offers a centralized order management system.
+The main objective of this project is to answer this question: Should Eniac to sign a contract with Magist, a Software company that offers a centralized order management system?
 
 - It's not clear that the marketplaces Magist works with are a good place for high-quality tech products.
 
@@ -20,7 +20,7 @@ SQL (Data Analysis)
 
 Tableau (Data Visualization)
 
-- **SQL Functions:** Includes SELECT, SELECT DISTINCT, WHERE, AND, OR, IN, NOT IN, BETWEEN LIKE, wildcards, NULL, NOT NULL, ORDER BY.
+- **SQL Functions:** Includes SELECT, DISTINCT, WHERE, AND, OR, IN, NOT IN, BETWEEN LIKE, wildcards, NULL, NOT NULL, ORDER BY.
 
 - **SQL Aggregation:**  This part includes COUNT, COUNT DISTINCT, SUM, AVG, MAX, MIN, GROUP BY, and HAVING.
 
