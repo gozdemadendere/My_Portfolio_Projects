@@ -1,7 +1,7 @@
 
 ### Heart Attack Prediction App
 
-#### View the App: https://gozdebarin-heart-attack-prediction-app-app-5sjsuk.streamlit.app/
+#### View the App: https://gozdebarin-heart-attack-prediction.streamlit.app/
 
 This machine learning project aims to identify people's heart attack risk based on their medical attributes and to help healthcare providers.
 
