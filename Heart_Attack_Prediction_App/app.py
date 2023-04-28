@@ -211,7 +211,7 @@ if selected == 'About Me':
     st.title("About Me")
     st.write("---")
     st.image(img_info3)
-    st.write("[Learn more about me & my other projects](https://gozdebarin-personal-website-app-g4y6aw.streamlit.app/)")
+    st.write("[Learn more about me & my other projects](https://gozdebarin-portfolio-website.streamlit.app/)")
 
 
     
