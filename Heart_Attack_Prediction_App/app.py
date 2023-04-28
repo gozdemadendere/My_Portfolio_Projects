@@ -255,7 +255,7 @@ if selected == 'Contact':
             st.write('')
             st.write('')
             st.write('<p style="font-size:22px; color:grey;">Connect with me:</p>', unsafe_allow_html=True)
-            st.write("[My Portfolio Projects](https://gozdebarin-personal-website-app-g4y6aw.streamlit.app/) | [LinkedIn](https://www.linkedin.com/in/gozdebarin/) | [Github](https://github.com/gozdebarin) | [Tableau](https://public.tableau.com/app/profile/gozdebarin) | [Medium](https://medium.com/@gozdebarin)")
+            st.write("[My Portfolio Projects](https://gozdebarin-portfolio-website.streamlit.app/) | [LinkedIn](https://www.linkedin.com/in/gozdebarin/) | [Github](https://github.com/gozdebarin) | [Tableau](https://public.tableau.com/app/profile/gozdebarin) | [Medium](https://medium.com/@gozdebarin)")
         
         with left_column:
             st_lottie(anim_1, height=220, key="coding")
