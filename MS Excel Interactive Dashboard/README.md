@@ -33,7 +33,7 @@ I used the following MS Excel skills to manipulate the data and create the dashb
 #### 4. Conclusions
 
 Key Insights:
-- June, October and December with more sales
+- June, October and December have more sales
 - In terms of sales across the country, the UK, US and India recorded very high sales and profits.
 - Categorically, "Chocolate Chip" cookies had amazing sales this year.
 
