@@ -1,6 +1,8 @@
 
 ## Kevin Cookie Company Interactive Dashboard | MS Excel
 
+<img width="1300" alt="Screen Shot 2023-05-01 at 8 16 14 PM" src="https://user-images.githubusercontent.com/90986708/235504564-253c7463-39dc-4d2f-b425-99c752bd4627.png">
+
 ### Project Objectives & Overview
 
 #### 1. Business Problem
@@ -42,4 +44,4 @@ Recommendations :
 ________________
 
 
-<img width="1300" alt="Screen Shot 2023-05-01 at 8 16 14 PM" src="https://user-images.githubusercontent.com/90986708/235504564-253c7463-39dc-4d2f-b425-99c752bd4627.png">
+
