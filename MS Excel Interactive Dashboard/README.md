@@ -22,9 +22,10 @@ The data for this dashboard was downloaded from [Kaggle](https://www.kaggle.com/
 I used the following MS Excel skills to manipulate the data and create the dashboard:
 - Data Cleaning
 - Data Manipulation
+- Data Visualization
+- Dashboard Creation
 - Functions (VLOOKUP, IF, SUM, CONCATENATE, MID/LEFT, UPPER, TEXT)
 - Pivot Tables
-- Charting & Dashboard Creation
 - Slicers / Action Filters
 - Formatting
 
