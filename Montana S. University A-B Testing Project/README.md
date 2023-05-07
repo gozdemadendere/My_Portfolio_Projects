@@ -17,10 +17,6 @@ The way to measure how each one of the three categories performs is by click-thr
 
 The main purpose of this project is to perform an A/B Test to check CTR(click-through rate) for different text on a button on the website of Montana S. University.
 
-
-After the interviews with the users and some brainstorming, the website team settled on 4 different new versions to test against the original “Interact” button:
-
-
 After discussions with users and some brainstorming, the website team decided on 4 different new versions to test against the "Interaction" button:
 
 - Connect
