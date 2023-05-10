@@ -1,4 +1,5 @@
 ## A/B Testing - Montana University Website Homepage | Python
+📌 My Medium Articles about [A/B Testing for Data Scientists](https://medium.com/@gozdebarin/a-b-testing-for-data-scientists-1f0b2f1d9ee9)
 
 ### Project Objectives & Overview
 #### 1. Overview
