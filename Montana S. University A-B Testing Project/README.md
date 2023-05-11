@@ -31,6 +31,15 @@ The metrics to track were following:
 
 - **Homepage-return rate for the category pages:** Percentage of users who navigated from the library homepage to the category page, then returned back to the homepage. Homepage-return rate was therefore selected as a measure of the ability of the category page to meet user expectations.
 
+#### 3. Steps of the Project
+
+- Explore and prepare the data
+- Define the hypothesis
+- Divide the users into groups
+- Collect data from both groups
+- Analyze the results
+- Test the hypothesis
+- Draw conclusions
 
 #### 3. Technical Skills
 
