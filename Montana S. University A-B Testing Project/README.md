@@ -3,22 +3,20 @@
 
 ### Project Objectives & Overview
 #### 1. Overview
-The Library of Montana State University has a website that students use to find books and articles.
-
-<img width="1221" alt="Screen Shot 2023-04-22 at 6 42 57 PM" src="https://user-images.githubusercontent.com/90986708/233796469-6bb38ade-83e8-4915-ae69-92efefd4a713.png">
+The Montana State University Library has a website that students use to find books and articles.
 
 Below the library picture, there is a search bar and three big items: “Find”, “Request” and “Interact”. All three of them contain access to important information and services about the library. However, the Website Analytics show that the “Interact” button has, ironically, almost no interactions.
 
-<img width="1221" alt="Screen Shot 2023-04-22 at 6 42 26 PM" src="https://user-images.githubusercontent.com/90986708/233796479-21af44a2-006b-4d46-ae74-f4aee4186a04.png">
+<img width="1221" alt="Screen Shot 2023-04-22 at 6 42 57 PM" src="https://user-images.githubusercontent.com/90986708/233796469-6bb38ade-83e8-4915-ae69-92efefd4a713.png">
 
 
 The way to measure how each one of the three categories performs is by click-through rate (CTR), a common term in Online Marketing which typically describes the number of clicks an ad receives divided by the number of times the ad is shown.
 
 #### 2. Purpose of the Project
 
-The main purpose of this project is to perform an A/B Test to check CTR(click-through rate) for different text on a button on the website of Montana S. University.
+The main purpose of this project is to perform an A/B Test to check CTR (click-through rate) for different text on a button on the website of Montana S. University.
 
-After discussions with users and some brainstorming, the website team decided on 4 different new versions to test against the "Interaction" button:
+The website team decided on 4 different new versions to test against the "Interaction" button:
 
 - Connect
 - Learn
@@ -40,10 +38,12 @@ The metrics to track were following:
 
 #### 4. Conclusions
 
-- "SERVICES" shows the best CTR of all options (although when compared to "CONNECT" not statistically significant) and has a ZERO PERCENT drop-off/homepage-return-rate.
+It is strongly advised to change the library's homepage and roll out the design with the "**Services**" button according to the following reasons:
 
-- Students likes Services version more, rather than Connect.
+- **Services** shows the best click-through rate (CTR) of all options.
 
-- Homepage-return rate: The Services version is better at giving information to users they want.
+- **Services** version is better at giving information to users they want as it has a lower Homepage-return Rate.
 
-- Therefore it's strongly advised to change the library's homepage and roll out the design with the "SERVICES"-button.
+- Students likes **Services** version more, rather than Connect.
+
+
