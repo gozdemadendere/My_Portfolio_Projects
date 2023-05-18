@@ -35,7 +35,8 @@ As a result of SQL queries and analysis, Magist Software Company may not be a go
 
 I recommend that Eniac **should not** sign the contract with Magist for the following reasons:
 
-- Mostly **non-tech products** are sold in Magist marketplaces. There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products. But Eniac sells 100% technology products.
+- Mostly **non-tech products** are sold in Magist marketplaces. But Eniac sells 100% technology products.
+There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products. 
 - Mostly **cheap products** are sold in Magist marketplaces. The average price of tech products in Magist Marketplaces is **€297**, but Eniac's Avg. Product Price is **€540**.
 - In Magist Marketplaces, **80%** of the **revenue** comes from non-tech products.
 - The average **delivery time** is 12 days in Magist market, while Apple standard delivery time is 1-3 days.
@@ -51,8 +52,8 @@ There is a lack of data to make a better decision.
 _______________
 ### TABLEAU VIZUALIZATIONS
 #### How was the distribution of tech products and non-tech products?
-- Mostly **non-tech products** are sold in Magist marketplaces.
-- There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products. But Eniac sells 100% technology products.
+- Mostly **non-tech products** are sold in Magist marketplaces. But Eniac sells 100% technology products.
+- There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products. 
 
 <img width="1084" alt="Screen Shot 2023-04-24 at 11 48 21 PM" src="https://user-images.githubusercontent.com/90986708/234124030-ed384b1f-41e6-4df5-834c-3d855f8162f7.png">
 
@@ -64,7 +65,6 @@ _______________
 
 <img width="1084" alt="Screen Shot 2023-04-24 at 11 49 47 PM" src="https://user-images.githubusercontent.com/90986708/234124245-1783ef8f-6756-4c90-a471-da2900e70d0b.png">
 
-_______________
 
 #### Are expensive tech products popular? (Eniac's Avg. Product Price:540 €)
 - Mostly cheap products are sold in Magist marketplaces. Expensive tech products are not popular.
