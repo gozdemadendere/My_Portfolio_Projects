@@ -1,5 +1,7 @@
 ## Eniac Data Cleaning & Storytelling | Python 
 
+📌 My Medium Article about [Data Cleaning: Most Helpful Python Pandas Methods](https://medium.com/@gozdebarin/data-cleaning-most-helpful-python-pandas-methods-21f824ce2c85)
+
 ### Project Objectives & Overview
 #### 1. Business Problem
 
