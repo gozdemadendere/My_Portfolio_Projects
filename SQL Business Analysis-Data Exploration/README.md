@@ -1,5 +1,7 @@
 ## Business Analysis  & Data Exploration | SQL & Tableau
 
+📌 My Medium Articles about SQL: [A Comprehensive SQL Guide with Examples](https://medium.com/@gozdebarin/list/sql-526d3f6dd22f)
+
 ### Project Objectives & Overview
 #### 1. Overview
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
