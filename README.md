@@ -28,7 +28,7 @@ ________________________
 
 - **A/B Testing** | Hypothesis Tests
 
-- **Data Engineering** | Web Scraping, API Pipelines, AWS Cloud Computing
+- **Data Engineering** | Web Scraping, API Pipelines
 
 - **Recommender Systems**
 
