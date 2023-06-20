@@ -1,9 +1,9 @@
 ## Heart Attack Exploratory Data Analysis (EDA) | Python
 📌 My Medium Articles about this project:
 
-[Exploratory Data Analysis (EDA) using Python](https://medium.com/@gozdebarin/exploratory-data-analysis-eda-using-python-b3839c8228a5)
+[Exploratory Data Analysis (EDA) using Python](https://medium.com/@gozdebarin/exploratory-data-analysis-eda-using-python-acebc16dfd3f)
 
-[Data Visualization for Exploratory Data Analysis (EDA)](https://medium.com/@gozdebarin/data-visualization-for-exploratory-data-analysis-eda-b1d8f38c4349)
+[Data Visualization for Exploratory Data Analysis (EDA)](https://medium.com/@gozdebarin/data-visualization-for-exploratory-data-analysis-eda-ddf850539575)
 
 
 ### Project Objectives & Overview
