@@ -52,7 +52,7 @@ There is a lack of data to make a better decision.
 - It would be better to have product **names and descriptions** as they will give us more information.
 
 _______________
-### TABLEAU VIZUALIZATIONS
+### TABLEAU VISUALIZATIONS
 #### How was the distribution of tech products and non-tech products?
 - Mostly **non-tech products** are sold in Magist marketplaces. But Eniac sells 100% technology products.
 - There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products. 
