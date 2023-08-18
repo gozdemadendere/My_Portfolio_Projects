@@ -2,9 +2,9 @@
 
 📌 My Medium Articles:
 
-[Data Cleaning: Most Helpful Python Pandas Methods](https://medium.com/@gozdebarin/data-cleaning-most-helpful-python-pandas-methods-21f824ce2c85)
+[Data Cleaning: Most Helpful Python Pandas Methods](https://medium.com/@gozdebarin/data-cleaning-most-helpful-python-pandas-methods-c91a36016529)
 
-[Data Manipulation with Python Pandas: Sorting, Grouping, Merging, and Joining](https://medium.com/@gozdebarin/data-manipulation-with-python-pandas-sorting-grouping-merging-and-joining-bb07932c7cbb)
+[Data Manipulation with Python Pandas: Sorting, Grouping, Merging, and Joining](https://medium.com/@gozdebarin/data-manipulation-with-python-pandas-sorting-grouping-merging-and-joining-19e22883ae5d)
 
 ### Project Objectives & Overview
 #### 1. Business Problem
