@@ -45,6 +45,7 @@ There are 32.951 products in Magist Marketplaces and **90%** of them are non-tec
 
 There is a lack of data to make a better decision.
 
+
 **However, according to the available data, Magist is not a good fit for high-quality tech products.**
 
 #### 5. Improvement of Data Collection
