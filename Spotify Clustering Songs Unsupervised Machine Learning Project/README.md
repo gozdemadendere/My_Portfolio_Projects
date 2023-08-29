@@ -19,6 +19,7 @@ A couple of assessments will have to be made:
 - Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
 
 - Unsupervised Machine Learning Algorithms (K-Means Clustering)
+  
 
 #### 4. Conclusions
 
@@ -27,4 +28,6 @@ A couple of assessments will have to be made:
 - K-Means method create playlist based on certain audio features, so it may not always produce pleasant sets of songs
 
 - It may be useful to use other features such as genre labelling to improve clustering
+
+  
 
