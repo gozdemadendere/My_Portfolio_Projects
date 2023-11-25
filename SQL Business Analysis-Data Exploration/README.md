@@ -26,7 +26,7 @@ Tableau (Data Visualization)
 
 - **SQL Aggregation:**  This part includes COUNT, COUNT DISTINCT, SUM, AVG, MAX, MIN, GROUP BY, and HAVING.
 
-- **SQL Analysis:** This is where I thought analytically and answer the questions using advanced SQL techniques. This part includes JOINS, CASE statements, Subqueries.
+- **SQL Analysis:** This is where I thought analytically and answer the questions using advanced SQL techniques. This part includes JOINS, CASE statements, and Subqueries.
 
 
 #### 4. Conclusions
