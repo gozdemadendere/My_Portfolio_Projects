@@ -7,7 +7,7 @@ As a data scientist working for a real estate investment firm interesting, our t
 
 Our employer hopes to use this information to help assess whether asking price of a house is higher or lower than the true value of the house. 
 
-The dataset includes about 80 different features for each house, such as its area, condition of the property, whether it has a backyard or pool.
+The dataset includes about 80 different features for each house, such as its area, the condition of the property, whether it has a backyard or pool.
 
 #### 2. Purpose of the Project
 
