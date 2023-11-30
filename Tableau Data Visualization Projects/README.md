@@ -7,7 +7,7 @@
 
 The main objective of this project is to create a dashboard using **Tableau BI Tool** to easily and quickly see the company's valuable insights.
 
-The dashboard provide a summary of company's analytical values, save time, improve decision making, simplify performance checks.
+The dashboard provide a summary of company's analytical values, save time, improve decision-making, simplify performance checks.
 
 
 #### 2. Technical Skills
