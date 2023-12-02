@@ -24,7 +24,7 @@ The main objectives of this project are:
 *   Splitting Data into Training and Test Set
 *   Creating Pipeline
 *   Applying algorithms
-*   Comparing the accuracy scores
+*   Comparing the accuracy scores 
 *   Using the Model on the Test Data
 
 #### 4. Technical Skills
