@@ -15,7 +15,7 @@ The main objectives of this project are:
 
 - Using **Classification** build a model to **predict whether a house is expensive.**
 
-- Using **Regression** build a model to **predict the selling price of a house.**
+- Using **Regression** build a model to **predict the selling price of a house.** 
 
 #### 3. Steps of the Project
 
