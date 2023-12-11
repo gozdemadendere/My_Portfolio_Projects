@@ -16,7 +16,7 @@ This machine learning project aims to identify people's heart attack risk based 
 
 <img width="1169" alt="Screen Shot 2023-04-19 at 4 18 15 PM" src="https://user-images.githubusercontent.com/90986708/233104912-9b99901b-12b4-448b-9329-70eae638b3f7.png">
 
-
+ 
 <img width="1169" alt="Screen Shot 2023-04-19 at 4 18 22 PM" src="https://user-images.githubusercontent.com/90986708/233104929-585e0f46-b496-4719-8cde-c19f6df0f693.png">
 
 <img width="1169" alt="Screen Shot 2023-04-19 at 4 18 29 PM" src="https://user-images.githubusercontent.com/90986708/233104942-9048a61a-5708-41b3-bcf9-896a08921774.png">
