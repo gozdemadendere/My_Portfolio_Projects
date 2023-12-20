@@ -1,5 +1,5 @@
 
-##  Retail Analytics Dashboard  [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdebarin)
+##  Retail Analytics Dashboard  [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
 
  
 ### Project Objectives & Overview
@@ -37,7 +37,7 @@ The dashboard provide a summary of company's analytical values, save time, impro
 - Also, the best performing Consumer products, as shown, should be stocked more as it was purchased the most.
 
 _________________________
-[(My other Tableau dashboards:)](https://public.tableau.com/app/profile/gozdebarin)
+[(My other Tableau dashboards:)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
 
 
 <img width="1409" alt="Screen Shot 2023-03-26 at 4 46 38 PM" src="https://user-images.githubusercontent.com/90986708/227783743-87397c5d-2051-42b2-8100-944d199224a7.png">
