@@ -1,4 +1,4 @@
-
+<img width="1428" alt="Screen Shot 2023-12-20 at 5 51 44 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/3b6ada40-b9e2-4ae7-ab22-6c9af5276f37">
 ##  Retail Analytics Dashboard  [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
 
  
@@ -20,6 +20,9 @@ The dashboard provide a summary of company's analytical values, save time, impro
 - Dual Axises
 
 #### 3. The Dashboard
+<img width="1409" alt="<img width="1428" alt="Screen Shot 2023-12-20 at 5 51 44 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/1367e7fa-a558-4ca2-9128-8e5a39e90fc5">
+">
+
 
 <img width="1409" alt="Screen Shot 2023-03-26 at 4 46 52 PM" src="https://user-images.githubusercontent.com/90986708/227783733-59dd2626-7a63-467e-827b-3cac8949e106.png">
 
