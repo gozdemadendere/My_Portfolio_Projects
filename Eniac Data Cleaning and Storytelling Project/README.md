@@ -24,7 +24,7 @@ The main goal of this project is to implement the data cleaning and data quality
 
 In addition, we should answer some business questions about the use of discounts for the Eniac company.
 
-#### 3. Technical Skills
+#### 3. Technical Skills 
 
 - Python (Pandas, Matplotlib, Seaborn)
 
