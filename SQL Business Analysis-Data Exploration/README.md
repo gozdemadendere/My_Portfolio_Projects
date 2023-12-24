@@ -5,7 +5,7 @@
 ### Project Objectives & Overview
 #### 1. Overview
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
-
+ 
 #### 2. Purpose of the Project
 
 The main objective of this project is to answer this question: Should Eniac to sign a contract with Magist, a Software company that offers a centralized order management system?
