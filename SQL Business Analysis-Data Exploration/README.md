@@ -16,7 +16,7 @@ The main objective of this project is to answer this question: Should Eniac to s
 
 Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL and visualizing with Tableau.
 
-#### 3. Technical Skills
+#### 3. Technical Skills 
 
 SQL (Data Analysis)
 
