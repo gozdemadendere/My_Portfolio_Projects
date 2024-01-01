@@ -18,7 +18,7 @@ The aim of this project is to collect data from external sources that can potent
 - Data Storage: create a Database on a local MySQL instance and store the collected data there
 - Pipeline to the Cloud: use Amazon Web Services (AWS) to move the pipeline to the cloud
 - Pipeline Automation: automate the whole data collection and storage process
-
+ 
 
 #### 4. Data Collection
 
