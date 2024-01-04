@@ -10,7 +10,7 @@ Ursula is realizing that, as her customer base grows, it is difficult for her to
 <img width="1280" alt="Screen Shot 2023-04-23 at 4 59 50 PM" src="https://user-images.githubusercontent.com/90986708/233847316-a883ccbd-2eac-431b-88ba-ad189d041659.png">
 
   
-
+ 
 Ursula has shared her store database with me and working as a freelance Data Scientist my task is to create recommender systems that give users from WBSFLIX relevant content to watch.
 
 #### 2. Purpose of the Project
