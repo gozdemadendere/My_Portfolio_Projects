@@ -10,7 +10,7 @@ The main objective of this project is to create a dashboard using **Tableau BI T
 The dashboard provide a summary of company's analytical values, save time, improve decision-making, simplify performance checks.
  
 
-#### 2. Technical Skills
+#### 2. Technical Skills 
 
 - Visualizing SQL query results in Tableau
 - Bar Charts / Line Graphs / Pie Charts / Map Vizualisations
