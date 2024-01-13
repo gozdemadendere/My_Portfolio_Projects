@@ -5,7 +5,7 @@
 Moosic is a little start-up that creates curated playlists in old and new trends.
 
 Users can subscribe to their website and listen to these playlists through their preferred Music App (Spotify, Apple Music, Youtube Music). They would like that their playlists have a specific "mood" or "style."
-
+ 
 #### 2. Purpose of the Project
 The purpose of this project is to cluster similar songs using K-means clustering algorithm and Spotipy API, thus automatically creating Spotify playlists.
 
