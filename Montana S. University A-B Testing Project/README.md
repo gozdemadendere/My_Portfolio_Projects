@@ -12,7 +12,7 @@ Below the library picture, there is a search bar and three big items: “Find”
 
 The way to measure how each one of the three categories performs is by click-through rate (CTR), a common term in Online Marketing which typically describes the number of clicks an ad receives divided by the number of times the ad is shown.
 
-#### 2. Purpose of the Project
+#### 2. Purpose of the Project 
 
 The main purpose of this project is to perform an A/B Test to check CTR (click-through rate) for different text on a button on the website of Montana S. University.
 
