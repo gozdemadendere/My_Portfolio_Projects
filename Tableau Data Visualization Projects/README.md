@@ -40,13 +40,16 @@ _________________________
 [(My other Tableau dashboards:)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
 
 
-<img width="1409" alt="Screen Shot 2023-03-26 at 4 46 38 PM" src="https://user-images.githubusercontent.com/90986708/227783743-87397c5d-2051-42b2-8100-944d199224a7.png">
+
+<img width="1428" alt="Screen Shot 2024-01-23 at 12 38 00 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/d2274817-cdf7-492a-aca7-187d3bcd440b">
 
 _________________________
 
-<img width="1358" alt="Screen Shot 2023-04-10 at 12 54 06 PM" src="https://user-images.githubusercontent.com/90986708/230888966-f2cca683-bca6-4886-ae2b-7d9ab1eb1cf0.png">
+<img width="1428" alt="Screen Shot 2024-01-23 at 12 38 27 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/26772701-cf69-4644-942e-531f93a39ccf">
+
 
 _________________________
 
+<img width="1428" alt="Screen Shot 2024-01-23 at 12 38 45 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/201e70dd-332e-400d-af8f-c67fb260196c">
 
-<img width="1358" alt="Screen Shot 2023-04-10 at 12 54 14 PM" src="https://user-images.githubusercontent.com/90986708/230888977-cb272315-a019-421c-beec-8eb0842920d4.png">
+
