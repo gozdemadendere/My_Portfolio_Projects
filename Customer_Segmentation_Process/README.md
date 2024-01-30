@@ -1,4 +1,4 @@
-## CUSTOMER SEGMENTATION PROCESS
+## CUSTOMER SEGMENTATION PROCESS (Rule Based Classifications)
 
 - Customer segmentation is the process of grouping customers with similar characteristics, needs, and behaviors into segments and creating marketing strategies tailored to each group.
 
