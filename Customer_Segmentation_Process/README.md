@@ -12,6 +12,11 @@ A gaming company aims to create level-based customer personas using customer cha
 
 Then, they want to predict the average revenue potential of these segments, such as determining the average revenue of a 25-year-old male IOS user from Turkey.
 
+Project Goals:
+- To divide customers into segments based on common characteristics
+- To predict the potential revenue of each customer segment
+- To provide informative insights to support the company's marketing strategies
+
 
 ______________________________
 
@@ -22,7 +27,6 @@ ______________________________
 - Creation of segments based on customer personas (Segmentation process).
 - Estimation of average revenue for each segment.
 - Classification of new customers based on results and prediction of potential revenue.
-
 
 ______________________________
 
@@ -58,7 +62,11 @@ For a 33-year-old Turkish female Android user, the analysis shows they belong to
 <img width="173" alt="Screen Shot 2024-01-30 at 3 30 20 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/9402e5fd-9767-4ccd-bc57-4fec072a5e21">
 
 
+#### Project Results:
 
+- Understanding Customers: Analyzing customer data provided valuable insights into their preferences and behaviors.
+- Revenue Prediction: Predicting revenue potential for new customers can help optimize resource allocation by focusing on high-value customers.
+- Overall, this project highlighted the power of data-driven decision-making in understanding customer behavior and driving business growth.
 
 
 
