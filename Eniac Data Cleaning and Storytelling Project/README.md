@@ -1,4 +1,4 @@
-## Eniac Data Cleaning & Storytelling | Python 
+## Data Cleaning & Storytelling | Python 
 
 📌 My Medium Articles:
 
