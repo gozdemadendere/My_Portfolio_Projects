@@ -1,17 +1,17 @@
 ########################################################################################################
-# PROJECT : FLO | BG-NBD ve Gamma-Gamma Modeli ile CLTV Prediction (Müşteri Yaşam Boyu Değeri Tahmini )
+# PROJECT : FLO | BG-NBD ve Gamma-Gamma Modeli ile CLV Prediction (Müşteri Yaşam Boyu Değeri Tahmini )
 ########################################################################################################
 
 # Customer Lifetime Value, bir müşterinin bir şirketle olan ilişkisi boyunca, bu şirkete kazandıracağı parasal değerdir.
 
-# Zaman projeksiyonlu olasılıksal CLTV Tahmini, bir müşterinin bir şirkete sağlayacağı gelirin tahmin edilmesine yönelik bir analiz türüdür.
+# Zaman projeksiyonlu olasılıksal CLV Tahmini, bir müşterinin bir şirkete sağlayacağı gelirin tahmin edilmesine yönelik bir analiz türüdür.
 # Bu yöntem, müşterinin geçmiş davranışlarını ve satın alma alışkanlıklarını kullanarak, gelecekteki satın alma olasılıklarını tahmin etmeye çalışır.
 # Şirketlerin müşterileriyle ilişkilerini yönetmelerine ve pazarlama stratejilerini desteklemelerine yardımcı olur.
 
-# CLTV prediction = BG/NBD Modeli x Gamma-Gamma Modeli
-# CLTV prediction = Expected Total Transaction x Expected Average Profit  (Beklenen satın alma sayısı x Beklenen ortalama kazanç(kar))
+# CLV prediction = BG/NBD Modeli x Gamma-Gamma Modeli
+# CLV prediction = Expected Total Transaction x Expected Average Profit  (Beklenen satın alma sayısı x Beklenen ortalama kazanç(kar))
 
-# CLTV değerini, her bir müşteri için tahmin ederiz. Olasılık dağılımlarını kullanarak, genel kitlemizin davranışlarını modelleriz ve bunları kişilerin özeline indirgeriz.
+# CLV değerini, her bir müşteri için tahmin ederiz. Olasılık dağılımlarını kullanarak, genel kitlemizin davranışlarını modelleriz ve bunları kişilerin özeline indirgeriz.
 
 ## BG/NBD Modeli:      Müşterinin beklenen satın alma sayısını tahmin etmek için kullanılır. (Expected Total Transaction)
 ## Gamma-Gamma Modeli: Bir müşterinin beklenen ortalama karını tahmin etmek için kullanılır. (Expected average profit)
@@ -28,11 +28,11 @@
 # 2. Gerekli Kütüphane ve Fonksiyonlar
 # 3. Veriyi Anlama (Data Understanding)
 # 4. Verinin Hazırlanması (Data Preperation)
-# 5. CLTV Veri Yapısının Oluşturulması (Metriklerin hazırlanması)
+# 5. CLV Veri Yapısının Oluşturulması (Metriklerin hazırlanması)
 # 6. BG-NBD Modeli ile Expected Number of Transaction
 # 7. Gamma-Gamma Modeli ile Expected Average Profit
-# 8. BG-NBD ve Gamma-Gamma Modeli ile CLTV'nin Hesaplanması
-# 9. CLTV'ye Göre Segmentlerin Oluşturulması
+# 8. BG-NBD ve Gamma-Gamma Modeli ile CLV'nin Hesaplanması
+# 9. CLV'ye Göre Segmentlerin Oluşturulması
 # 10.Çalışmanın fonksiyonlaştırılması
 
 
@@ -44,7 +44,7 @@
 # 1. İş Problemi (Business Problem)
 ##################################################################################
 
-# Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerinin şirkete sağlayacağı gelirin tahmin edilmesini ve bu CLTV değerlerine göre segmentlere ayrilmasını istiyor.
+# Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerinin şirkete sağlayacağı gelirin tahmin edilmesini ve bu CLV değerlerine göre segmentlere ayrilmasını istiyor.
 
 # Yaklaşık 20.000 müşteriye ait bilgileri içeren veri seti, son alışverişlerini 2020-2021 yıllarında OmniChannel (hem online hem offline alışveriş) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
 
@@ -96,7 +96,7 @@ def outlier_thresholds(dataframe, variable):
 
 
 # Bu fonksiyon, belirli bir değişkenin aykırı değerlerini belirlenen alt ve üst sınırlarla değiştirmek için kullanılır.
-# Not: cltv hesaplanırken frequency değerleri integer olması gerekmektedir. Bu nedenle alt ve üst limitlerini round() ile yuvarlayınız.
+# Not: CLV hesaplanırken frequency değerleri integer olması gerekmektedir. Bu nedenle alt ve üst limitlerini round() ile yuvarlayınız.
 def replace_with_thresholds(dataframe, variable):
     low_limit, up_limit = outlier_thresholds(dataframe, variable)                     # Belirli değişken için alt ve üst sınırları outlier_thresholds fonksiyonundan alır.
     dataframe.loc[(dataframe[variable] < low_limit), variable] = round(low_limit,0)   # Aykırı değerleri alt sınıra eşitlemek isteniyorsa, yorum satırı kaldırılarak bu satırın etkinleştirilmesi gerekir.
@@ -112,7 +112,7 @@ def replace_with_thresholds(dataframe, variable):
 ##################################################################################
 
 # Read from CSV
-df_ = pd.read_csv("/Users/gozdemadendere/Desktop/PycharmProjects/CRM_Analytics/FLO_project_CLTV_prediction/flo_data_20k.csv")
+df_ = pd.read_csv("/Users/gozdemadendere/Desktop/PycharmProjects/CRM_Analytics/FLO_project_CLV_prediction/flo_data_20k.csv")
 df = df_.copy()
 
 ################################################
@@ -189,7 +189,7 @@ df.describe()
 
 
 ###############################################################
-# 5. CLTV Veri Yapısının Oluşturulması (Metriklerin hazırlanması)
+# 5. CLV Veri Yapısının Oluşturulması (Metriklerin hazırlanması)
 ###############################################################
 
 # Recency:           Müşteri son satın alma tarihi- Müşteri ilk satın alma tarihi
@@ -202,13 +202,13 @@ df["last_order_date"].max()    # dataframe deki en son satın alma tarihi
 today_date = dt.datetime(2021, 6, 1)
 
 #######################################
-# Note!! : Örnek olarak, cltv_prediction dosyasındaki projede, müşteri Customer id ler satırlarda çokladığı için, group by a aldırma işlemi yapmıştık.
+# Note!! : Örnek olarak, clv_prediction dosyasındaki projede, müşteri Customer id ler satırlarda çokladığı için, group by a aldırma işlemi yapmıştık.
 # 4 metrik sütununu da (recency, frequency, T, monetary) lambda fonksiyonu ile hesaplatmıştık.
 # Ayrıca o projede, invoice lar (first ve last ınvoicelar da) tek sütun içindeydi, bakılabilir.
 #######################################
 
 
-### 2) customer_id, recency_cltv_weekly, T_weekly, frequency ve monetary_cltv_avg değerlerinin yer aldığı yeni bir cltv dataframe oluşturunuz.
+### 2) customer_id, recency_clv_weekly, T_weekly, frequency ve monetary_clv_avg değerlerinin yer aldığı yeni bir clv dataframe oluşturunuz.
 # Bu projede, orijinal dataframe de zaten her satırda eşsiz Customer id var. Yani Customer id ye göre group by yapmaya gerek yok.
 
 # Önce orijinal df ye recency, frequency, monetary, T sütunlarini ekletelim.
@@ -222,27 +222,27 @@ df["recency"] = df["recency"] / 7
 df["T"] = df["T"] / 7
 
 
-### 4) cltv_df isimli yeni bir dataframe olusturup ilgili 4 sutunu ekletelim
-cltv_df = df.loc[:, ["customer_id", "recency", "frequency", "monetary", "T"]]
+### 4) clv_df isimli yeni bir dataframe olusturup ilgili 4 sutunu ekletelim
+clv_df = df.loc[:, ["customer_id", "recency", "frequency", "monetary", "T"]]
 
-### 5) frequency >1 olmalidir !  df de min 2 gorunuyor, mantikli. >1 olmasaydi sunu demeliydik: cltv_df = cltv_df[(cltv_df['frequency'] > 1)]
-cltv_df.describe().T
+### 5) frequency >1 olmalidir !  df de min 2 gorunuyor, mantikli. >1 olmasaydi sunu demeliydik: clv_df = clv_df[(clv_df['frequency'] > 1)]
+clv_df.describe().T
 
 ### 6) frequency integer olmalidir, degilse integer a cevirelim
-cltv_df.dtypes
-cltv_df["frequency"] = cltv_df["frequency"].astype(int)
-cltv_df.dtypes
+clv_df.dtypes
+clv_df["frequency"] = clv_df["frequency"].astype(int)
+clv_df.dtypes
 
 # customer_id yi yeniden index olarak atayalim
-cltv_df.set_index('customer_id', inplace=True)
+clv_df.set_index('customer_id', inplace=True)
 
 # degerleri kontrol edelim:
-cltv_df.describe().T
-cltv_df.head()
+clv_df.describe().T
+clv_df.head()
 
 ### 7) Sütun isimlerini güncelleyelim :
-# (customer_id, recency_cltv_weekly, T_weekly, frequency ve monetary_cltv_avg değerlerinin yer aldığı bir cltv dataframe'i oluşturunuz.)
-cltv_df.rename(columns={"T": "T_weekly", "recency": "recency_cltv_weekly", "monetary": "monetary_cltv_avg"}, inplace=True)
+# (customer_id, recency_clv_weekly, T_weekly, frequency ve monetary_clv_avg değerlerinin yer aldığı bir clv dataframe'i oluşturunuz.)
+clv_df.rename(columns={"T": "T_weekly", "recency": "recency_clv_weekly", "monetary": "monetary_clv_avg"}, inplace=True)
 
 
 
@@ -259,9 +259,9 @@ cltv_df.rename(columns={"T": "T_weekly", "recency": "recency_cltv_weekly", "mone
 bgf = BetaGeoFitter(penalizer_coef=0.001)
 
 # Modeli nihai hale getir:
-bgf.fit(cltv_df['frequency'],
-        cltv_df['recency_cltv_weekly'],
-        cltv_df['T_weekly'])
+bgf.fit(clv_df['frequency'],
+        clv_df['recency_clv_weekly'],
+        clv_df['T_weekly'])
 
 
 ################################################################
@@ -270,22 +270,22 @@ bgf.fit(cltv_df['frequency'],
 
 # 1 hafta içinde en çok satın alma sayısı beklenen ilk 10 müşteri: (t:1 yani 1 haftalık tahmin yap demek)
 bgf.conditional_expected_number_of_purchases_up_to_time(1,
-                                                        cltv_df['frequency'],
-                                                        cltv_df['recency_cltv_weekly'],
-                                                        cltv_df['T_weekly']).sort_values(ascending=False).head(10)
+                                                        clv_df['frequency'],
+                                                        clv_df['recency_clv_weekly'],
+                                                        clv_df['T_weekly']).sort_values(ascending=False).head(10)
 
 # Veya predict fonksiyonu ile:
 bgf.predict(1,
-            cltv_df['frequency'],
-            cltv_df['recency_cltv_weekly'],
-            cltv_df['T_weekly']).sort_values(ascending=False).head(10)
+            clv_df['frequency'],
+            clv_df['recency_clv_weekly'],
+            clv_df['T_weekly']).sort_values(ascending=False).head(10)
 
 
 # Tüm müşteriler için, 1 hafta içinde beklenen satın alma sayısı
-cltv_df["expected_purc_1_week"] = bgf.predict(1,
-                                              cltv_df['frequency'],
-                                              cltv_df['recency_cltv_weekly'],
-                                              cltv_df['T_weekly'])
+clv_df["expected_purc_1_week"] = bgf.predict(1,
+                                              clv_df['frequency'],
+                                              clv_df['recency_clv_weekly'],
+                                              clv_df['T_weekly'])
 
 
 ################################################################
@@ -293,36 +293,36 @@ cltv_df["expected_purc_1_week"] = bgf.predict(1,
 ################################################################
 
 # Tüm müşteriler için, 3 ay içinde beklenen satın alma sayısı
-cltv_df["exp_sales_3_month"] = bgf.predict(4 * 3,
-                                           cltv_df['frequency'],
-                                           cltv_df['recency_cltv_weekly'],
-                                           cltv_df['T_weekly']).sort_values(ascending=False)
+clv_df["exp_sales_3_month"] = bgf.predict(4 * 3,
+                                           clv_df['frequency'],
+                                           clv_df['recency_clv_weekly'],
+                                           clv_df['T_weekly']).sort_values(ascending=False)
 
 
 # 3 ayda en çok satın alım gerçekleştirecek 10 müşteriyi inceleyeniz.
-cltv_df.sort_values(by="exp_sales_3_month", ascending=False).head(10)
+clv_df.sort_values(by="exp_sales_3_month", ascending=False).head(10)
 
 
 # 3 Ayda Tüm Şirketin Beklenen Satış Sayısı
 bgf.predict(4 * 3,
-            cltv_df['frequency'],
-            cltv_df['recency_cltv_weekly'],
-            cltv_df['T_weekly']).sum()
+            clv_df['frequency'],
+            clv_df['recency_clv_weekly'],
+            clv_df['T_weekly']).sum()
 
 
 ################################################################
-# 6 ay içerisinde müşterilerden beklenen satın almaları tahmin ediniz ve exp_sales_6_month olarak cltv dataframe'ine ekleyiniz.
+# 6 ay içerisinde müşterilerden beklenen satın almaları tahmin ediniz ve exp_sales_6_month olarak clv dataframe'ine ekleyiniz.
 ################################################################
 
 # Tüm müşteriler icin, 24 hafta (4 hafta x 6) içinde beklenen satın alma sayısı
-cltv_df["exp_sales_6_month"] = bgf.predict(4  * 6,
-                                           cltv_df['frequency'],
-                                           cltv_df['recency_cltv_weekly'],
-                                           cltv_df['T_weekly']).sort_values(ascending=False)
+clv_df["exp_sales_6_month"] = bgf.predict(4  * 6,
+                                           clv_df['frequency'],
+                                           clv_df['recency_clv_weekly'],
+                                           clv_df['T_weekly']).sort_values(ascending=False)
 
 
 # 6 ayda en çok satın alım gerçekleştirecek 10 kişiyi inceleyeniz.
-cltv_df.sort_values(by="exp_sales_6_month", ascending=False).head(10)
+clv_df.sort_values(by="exp_sales_6_month", ascending=False).head(10)
 
 
 # Tahmin Sonuçlarının Değerlendirilmesi
@@ -346,27 +346,27 @@ plt.show()
 ggf = GammaGammaFitter(penalizer_coef=0.01)
 
 # Modeli nihai hale getir:
-ggf.fit(cltv_df['frequency'],
-        cltv_df['monetary_cltv_avg'])
+ggf.fit(clv_df['frequency'],
+        clv_df['monetary_clv_avg'])
 
 
 ################################################################
-# Müşterilerin ortalama bırakacakları değeri/kari (Expected Average Profit) tahminleyip exp_average_value olarak cltv dataframe'ine ekleyiniz.
+# Müşterilerin ortalama bırakacakları değeri/kari (Expected Average Profit) tahminleyip exp_average_value olarak clv dataframe'ine ekleyiniz.
 ################################################################
 
-cltv_df["exp_average_value"] = ggf.conditional_expected_average_profit(cltv_df['frequency'],
-                                                                       cltv_df['monetary_cltv_avg'])
+clv_df["exp_average_value"] = ggf.conditional_expected_average_profit(clv_df['frequency'],
+                                                                       clv_df['monetary_clv_avg'])
 
 
 ################################################################
 # Ilk 10 Müşteri icin, Expected Average Profit (beklenen kar) i getirelim
 ################################################################
 
-cltv_df["expected_average_profit"] = ggf.conditional_expected_average_profit(cltv_df['frequency'],
-                                        cltv_df['monetary_cltv_avg'])
+clv_df["expected_average_profit"] = ggf.conditional_expected_average_profit(clv_df['frequency'],
+                                        clv_df['monetary_clv_avg'])
 
 
-cltv_df.sort_values(by="expected_average_profit", ascending=False).head(10)
+clv_df.sort_values(by="expected_average_profit", ascending=False).head(10)
 
 
 
@@ -375,25 +375,25 @@ cltv_df.sort_values(by="expected_average_profit", ascending=False).head(10)
 
 
 ##############################################################
-# 8. BG-NBD ve GG modeli ile 6 aylık CLTV'nin hesaplanması
+# 8. BG-NBD ve GG modeli ile 6 aylık CLV'nin hesaplanması
 ##############################################################
 
-# 6 aylık CLTV hesaplayınız ve cltv ismiyle dataframe'e ekleyiniz.
-# Daha önce kurduğumuz ggf modeli ve bgf modeli ile, cltv hesaplayalim  (Buradaki time aylik !)
+# 6 aylık CLV hesaplayınız ve clv ismiyle dataframe'e ekleyiniz.
+# Daha önce kurduğumuz ggf modeli ve bgf modeli ile, clv hesaplayalim  (Buradaki time aylik !)
 
-cltv_df["cltv"] = ggf.customer_lifetime_value(bgf,
-                                   cltv_df['frequency'],
-                                   cltv_df['recency_cltv_weekly'],
-                                   cltv_df['T_weekly'],
-                                   cltv_df['monetary_cltv_avg'],
+clv_df["clv"] = ggf.customer_lifetime_value(bgf,
+                                   clv_df['frequency'],
+                                   clv_df['recency_clv_weekly'],
+                                   clv_df['T_weekly'],
+                                   clv_df['monetary_clv_avg'],
                                    time=6,    # 6 aylık !!
                                    freq="W",  # T'nin frekans bilgisi (W = haftalik)
                                    discount_rate=0.01)   # indirim yapilirsa diye indirim payi
 
-cltv_df.head()
+clv_df.head()
 
 # index bilgisi ekleyelim, Customer ID bir index degil degisken olsun
-cltv_df = cltv_df.reset_index()
+clv_df = clv_df.reset_index()
 
 
 ## !! NOTE:
@@ -409,66 +409,66 @@ cltv_df = cltv_df.reset_index()
 
 
 ##############################################################
-# 9. CLTV'ye Göre Segmentlerin Oluşturulması
+# 9. CLV'ye Göre Segmentlerin Oluşturulması
 ##############################################################
 
-# 6 aylık CLTV'ye göre, tüm müşterilerinizi 4 gruba (segmente) ayırınız ve grup isimlerini veri setine ekleyiniz.  cltv_segment ismi ile atayınız.
+# 6 aylık CLV'ye göre, tüm müşterilerinizi 4 gruba (segmente) ayırınız ve grup isimlerini veri setine ekleyiniz.  clv_segment ismi ile atayınız.
 
 # Burada segmentleri otomatik belirledik, gerekirse araliklari kendimiz de ayarlayabiliriz cut fonksiyonu ile vb.
-cltv_df["cltv_segment"] = pd.qcut(cltv_df["cltv"], 4, labels=["D", "C", "B", "A"])
-cltv_df.sort_values(by="cltv", ascending=False).head(50)
+clv_df["clv_segment"] = pd.qcut(clv_df["clv"], 4, labels=["D", "C", "B", "A"])
+clv_df.sort_values(by="clv", ascending=False).head(50)
 
 # Segmentlerin Recency, Frequency ve Monetary ortalamalarını inceleyiniz.
-cltv_df.groupby("cltv_segment").agg({"recency_cltv_weekly": ["mean"], "frequency": ["mean"], "monetary_cltv_avg": ["mean"]})
+clv_df.groupby("clv_segment").agg({"recency_clv_weekly": ["mean"], "frequency": ["mean"], "monetary_clv_avg": ["mean"]})
 
 
 
 ################################################################
-# SONUÇ: 6 Aylık CLTV Değerleri:
+# SONUÇ: 6 Aylık CLV Değerleri:
 ################################################################
 
-# # Tüm müşteriler için, 6 Aylık CLTV Değerleri:
-cltv_df.sort_values(by="cltv", ascending=False)
+# # Tüm müşteriler için, 6 Aylık CLV Değerleri:
+clv_df.sort_values(by="clv", ascending=False)
 
-# 6 Aylık CLTV Değerleri en yüksek 50 müşteriyi gözlemleyiniz.
-cltv_df.sort_values(by="cltv", ascending=False).head(50)
+# 6 Aylık CLV Değerleri en yüksek 50 müşteriyi gözlemleyiniz.
+clv_df.sort_values(by="clv", ascending=False).head(50)
 
-cltv_df.loc[:, ['customer_id', 'recency_cltv_weekly', 'frequency', 'monetary_cltv_avg', 'cltv', 'cltv_segment']].sort_values(by='cltv', ascending=False).head(50)
+clv_df.loc[:, ['customer_id', 'recency_clv_weekly', 'frequency', 'monetary_clv_avg', 'clv', 'clv_segment']].sort_values(by='clv', ascending=False).head(50)
 
 
 # Ilk 50 müşteriyi incelemek icin, order_channel ve interested_in_categories_12 sutunlarini da ilk df den cagiralim
-six_months_max_cltv_customers = pd.merge(cltv_df, df[["customer_id","order_channel", "interested_in_categories_12"]], how="inner", on="customer_id")
-six_months_max_cltv_customers.sort_values(by="cltv", ascending=False).head(50)
+six_months_max_clv_customers = pd.merge(clv_df, df[["customer_id","order_channel", "interested_in_categories_12"]], how="inner", on="customer_id")
+six_months_max_clv_customers.sort_values(by="clv", ascending=False).head(50)
 
 
-six_months_max_cltv_customers.groupby("cltv_segment").agg({"exp_sales_6_month": ["sum"],
-                                                           "cltv": ["sum"]})
+six_months_max_clv_customers.groupby("clv_segment").agg({"exp_sales_6_month": ["sum"],
+                                                           "clv": ["sum"]})
 
 
 
 
 
 ################################################################
-# Yönetime, CLTV Değerleri Kapsamında Aksiyon Önerileri:
+# Yönetime, CLV Değerleri Kapsamında Aksiyon Önerileri:
 ################################################################
 
-### A Segmenti (6 Ay için CLTV 1,857,360 - Beklenen Satış Adetleri 7,889):
-# En yüksek CLTV değerlerine sahip bu "sadık müşterilere"; Özel Indirimler, Kişiselleştirilmiş Mail/SMS, Sadakat Programları sunarak bu müşterileri ödüllendirebilir ve gelecekteki satışlarını arttırabilirsiniz.
-# Zaten satın alma adedi yüksek ve sürekli olan bu müşterilere, cross-selling ve up-selling stratejilerini uygulayarak, satın alma adetlerini ve CLTV değerlerini daha çok arttırabilirsiniz.
+### A Segmenti (6 Ay için CLV 1,857,360 - Beklenen Satış Adetleri 7,889):
+# En yüksek CLV değerlerine sahip bu "sadık müşterilere"; Özel Indirimler, Kişiselleştirilmiş Mail/SMS, Sadakat Programları sunarak bu müşterileri ödüllendirebilir ve gelecekteki satışlarını arttırabilirsiniz.
+# Zaten satın alma adedi yüksek ve sürekli olan bu müşterilere, cross-selling ve up-selling stratejilerini uygulayarak, satın alma adetlerini ve CLV değerlerini daha çok arttırabilirsiniz.
 # Hızlı teslimat seçeneği, sınırlı sayıda ürün gibi premium hizmetler sunarak, müşteri memnuniyetini arttırabilirsiniz.
 # VIP müşteri programları veya özel etkinlikler düzenleyerek, müşterilerin markaya olan ilgisini artırabilir ve satışları artırabilirsiniz.
 
 
-### B Segmenti (6 Ay için CLTV 999,253 - Beklenen Satış Adetleri 6,033):
-# Bu segmentteki "potansiyel sadık müşterilerin" satın alma adetlerini ve CLTV değerlerini arttırmak için cross-selling ve up-selling stratejilerini uygulayabilirsiniz. Böylece segmentin CLTV değerini arttırabilirsiniz.
+### B Segmenti (6 Ay için CLV 999,253 - Beklenen Satış Adetleri 6,033):
+# Bu segmentteki "potansiyel sadık müşterilerin" satın alma adetlerini ve CLV değerlerini arttırmak için cross-selling ve up-selling stratejilerini uygulayabilirsiniz. Böylece segmentin CLV değerini arttırabilirsiniz.
 # VIP müşteri programları veya özel etkinlikler düzenleyerek, müşterilerin markaya olan ilgisini artırabilir ve satışları artırabilirsiniz.
 
 
-### C Segmenti (6 Ay için CLTV 690,508 - Beklenen Satış Adetleri 5,243):
-# Bu segmentteki "en yüksek CLTV'ye sahip müşterilere" odaklanarak, kampanyalar ve özel indirimlerle bu müşterileri teşvik edip, segmentin CLTV değerini arttırıp, B segmentine yükselmelerini sağlayabilirsiniz.
+### C Segmenti (6 Ay için CLV 690,508 - Beklenen Satış Adetleri 5,243):
+# Bu segmentteki "en yüksek CLV'ye sahip müşterilere" odaklanarak, kampanyalar ve özel indirimlerle bu müşterileri teşvik edip, segmentin CLV değerini arttırıp, B segmentine yükselmelerini sağlayabilirsiniz.
 
 
-### D Segmenti (6 Ay için CLTV 398,991 - Beklenen Satış Adetleri 4,053):
+### D Segmenti (6 Ay için CLV 398,991 - Beklenen Satış Adetleri 4,053):
 # Bu segmentteki sık alışveriş yapan müşterilere, düşük maliyetli ürünler veya hizmetler sunarak, daha sık alışveriş yapmalarını teşvik edebilir, C segmentine yükselmelerini sağlayabilirsiniz.
 # Bu segmentteki müşterilerden düzenli geri bildirim alarak, ürün ve hizmetlerinizi iyileştirmek için fırsatlar arayabilirsiniz.
 
@@ -486,7 +486,7 @@ six_months_max_cltv_customers.groupby("cltv_segment").agg({"exp_sales_6_month": 
 ##############################################################
 
 
-def create_cltv_df(dataframe):
+def create_clv_df(dataframe):
 
     # Veriyi Hazırlama
     columns = ["order_num_total_ever_online", "order_num_total_ever_offline", "customer_value_total_ever_offline","customer_value_total_ever_online"]
@@ -499,56 +499,54 @@ def create_cltv_df(dataframe):
     date_columns = dataframe.columns[dataframe.columns.str.contains("date")]
     dataframe[date_columns] = dataframe[date_columns].apply(pd.to_datetime)
 
-    # CLTV veri yapısının oluşturulması
+    # CLV veri yapısının oluşturulması
     dataframe["last_order_date"].max()  # 2021-05-30
     analysis_date = dt.datetime(2021, 6, 1)
-    cltv_df = pd.DataFrame()
-    cltv_df["customer_id"] = dataframe["master_id"]
-    cltv_df["recency_cltv_weekly"] = ((dataframe["last_order_date"] - dataframe["first_order_date"]).astype('timedelta64[D]')) / 7
-    cltv_df["T_weekly"] = ((analysis_date - dataframe["first_order_date"]).astype('timedelta64[D]')) / 7
-    cltv_df["frequency"] = dataframe["order_num_total"]
-    cltv_df["monetary_cltv_avg"] = dataframe["customer_value_total"] / dataframe["order_num_total"]
-    cltv_df = cltv_df[(cltv_df['frequency'] > 1)]
+    clv_df = pd.DataFrame()
+    clv_df["customer_id"] = dataframe["master_id"]
+    clv_df["recency_clv_weekly"] = ((dataframe["last_order_date"] - dataframe["first_order_date"]).astype('timedelta64[D]')) / 7
+    clv_df["T_weekly"] = ((analysis_date - dataframe["first_order_date"]).astype('timedelta64[D]')) / 7
+    clv_df["frequency"] = dataframe["order_num_total"]
+    clv_df["monetary_clv_avg"] = dataframe["customer_value_total"] / dataframe["order_num_total"]
+    clv_df = clv_df[(clv_df['frequency'] > 1)]
 
     # BG-NBD Modelinin Kurulması
     bgf = BetaGeoFitter(penalizer_coef=0.001)
-    bgf.fit(cltv_df['frequency'],
-            cltv_df['recency_cltv_weekly'],
-            cltv_df['T_weekly'])
-    cltv_df["exp_sales_3_month"] = bgf.predict(4 * 3,
-                                               cltv_df['frequency'],
-                                               cltv_df['recency_cltv_weekly'],
-                                               cltv_df['T_weekly'])
-    cltv_df["exp_sales_6_month"] = bgf.predict(4 * 6,
-                                               cltv_df['frequency'],
-                                               cltv_df['recency_cltv_weekly'],
-                                               cltv_df['T_weekly'])
+    bgf.fit(clv_df['frequency'],
+            clv_df['recency_clv_weekly'],
+            clv_df['T_weekly'])
+    clv_df["exp_sales_3_month"] = bgf.predict(4 * 3,
+                                               clv_df['frequency'],
+                                               clv_df['recency_clv_weekly'],
+                                               clv_df['T_weekly'])
+    clv_df["exp_sales_6_month"] = bgf.predict(4 * 6,
+                                               clv_df['frequency'],
+                                               clv_df['recency_clv_weekly'],
+                                               clv_df['T_weekly'])
 
     # # Gamma-Gamma Modelinin Kurulması
     ggf = GammaGammaFitter(penalizer_coef=0.01)
-    ggf.fit(cltv_df['frequency'], cltv_df['monetary_cltv_avg'])
-    cltv_df["exp_average_value"] = ggf.conditional_expected_average_profit(cltv_df['frequency'],
-                                                                           cltv_df['monetary_cltv_avg'])
+    ggf.fit(clv_df['frequency'], clv_df['monetary_clv_avg'])
+    clv_df["exp_average_value"] = ggf.conditional_expected_average_profit(clv_df['frequency'],
+                                                                           clv_df['monetary_clv_avg'])
 
-    # Cltv tahmini
-    cltv = ggf.customer_lifetime_value(bgf,
-                                       cltv_df['frequency'],
-                                       cltv_df['recency_cltv_weekly'],
-                                       cltv_df['T_weekly'],
-                                       cltv_df['monetary_cltv_avg'],
+    # Clv tahmini
+    clv = ggf.customer_lifetime_value(bgf,
+                                       clv_df['frequency'],
+                                       clv_df['recency_clv_weekly'],
+                                       clv_df['T_weekly'],
+                                       clv_df['monetary_clv_avg'],
                                        time=6,
                                        freq="W",
                                        discount_rate=0.01)
-    cltv_df["cltv"] = cltv
+    clv_df["clv"] = clv
 
-    # CLTV segmentleme
-    cltv_df["cltv_segment"] = pd.qcut(cltv_df["cltv"], 4, labels=["D", "C", "B", "A"])
+    # CLV segmentleme
+    clv_df["clv_segment"] = pd.qcut(clv_df["clv"], 4, labels=["D", "C", "B", "A"])
 
-    return cltv_df
+    return clv_df
 
-cltv_df = create_cltv_df(df)
-
-
-cltv_df.head(10)
+clv_df = create_clv_df(df)
 
 
+clv_df.head(10)
