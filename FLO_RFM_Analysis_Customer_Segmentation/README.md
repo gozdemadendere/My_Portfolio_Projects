@@ -1,72 +1,82 @@
-## FLO | Customer Segmentation with RFM Analysis
+## FLO | RFM Analizi ile Müşteri Segmentasyonu  (Customer Segmentation with RFM Analysis)
 
-RFM analysis is a technique used for customer segmentation based on Recency, Frequency, and Monetary metrics.
+RFM analizi; Recency, Frequency, Monetary metriklerinden faydalanarak, müşteri segmentasyonu için kullanılan bir tekniktir.
 
-It divides customers into segments based on their purchasing habits, enabling the development of tailored strategies.
+Müşterilerin satın alma alışkanlıkları üzerinden segmentlere ayrılmasını, ve bu segmentler özelinde stratejiler geliştirilmesini sağlar.
 
-- Recency = Analysis date - Customer's last purchase date
-- Frequency = Total number of customer purchases (total transactions or invoices)
-- Monetary = Total amount spent by the customer
-
-______________________________
-
-
-### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
-FLO, one of the leading footwear companies in Turkey, aims to segment its customers based on their purchasing habits and develop strategies for each segment.
-
-The dataset consists of historical purchase behaviors of customers who made their last purchases in 2020 - 2021 through OmniChannel (both online and offline) channels.
-
+- Recency   = Analiz tarihi - Müşterinin son satın alma tarihi
+- Frequency = Müşterinin toplam satın alma sayısı   (toplam işlem veya fatura sayısı)
+- Monetary  = Müşterinin TOPLAM Harcama tutarı
 
 ______________________________
 
-### 2. PROJECT STEPS
 
-1. Data Understanding
-2. Data Preparation
-3. Calculating RFM Metrics: Recency, Frequency, Monetary columns creation
-4. Calculating RFM Scores
-5. Creating & Analyzing RFM Segments
+### 1. İŞ PROBLEMİ / PROJE HEDEFİ
+
+Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerini satın alma alışkanlıkları üzerinden segmentlere ayırmak ve bu segmentler özelinde stratejiler geliştirmek istiyor.
+
+Veri seti, son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
 
 
 ______________________________
 
-### 3. PROJECT RESULTS
+### 2. PROJE AŞAMALARI
 
-#### Question 1:
-#### What are the Created Customer Segments & Segment-Based Recency, Frequency, and Monetary Averages?
+1. Veriyi Anlama (Data Understanding)
+2. Veri Hazırlama (Data Preparation)
+3. RFM Metriklerinin Hesaplanması (Calculating RFM Metrics: Recency, Frequency, Monetary sütunlarını olusturma)
+4. RFM Skorlarının Hesaplanması (Calculating RFM Scores)
+5. RFM Segmentlerinin Oluşturulması ve Analiz Edilmesi (Creating & Analysing RFM Segments)
+
+______________________________
+
+### 3. PROJE SONUÇLARI
+
+#### Soru 1:
+Oluşturulan Müşteri Segmentleri & Segment Bazlı Recency, Frequency ve Monetary Ortalamaları nasıldır?
 
 <img width="600" alt="Screen Shot 2024-02-07 at 11 46 30 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/7594c4ab-b765-4d3a-b91a-8dd416f2455c">
 
 <img width="400" alt="Screen Shot 2024-02-07 at 11 51 24 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/5107b094-98e4-4e76-84f8-3f1a3bb27f1f">
 
 
+#### Müşteri Segmentlerine Göre Öneriler:
 
-#### Question 2:
-A new women's shoe brand has been introduced to FLO, and the company wants to reach out to customers who are interested in the introduction and sales of this product.
+- **Champions (Şampiyonlar):**                          En değerli müşteriler. Özel teşviklerle ve VIP müşteri programları ile memnuniyetleri artırılabilir.
+- **Loyal Customers (Sadık Müşteriler):**                Düzenli alışveriş yapan müşteriler. Satışları artırmak için mevcut alışveriş alışkanlıklarına uygun ürün ve hizmetler önerilebilir.
+- **Potential Loyalists (Potansiyel Sadık Müşteriler):** Sadık müşteri olma potansiyeline sahip olanlar. Daha fazla alışveriş yapmaları için özel tekliflerle teşvik edilebilirler.
+- **Promising (Umut Vadedenler):**                       Potansiyel değer taşıyan müşteriler. Yeni ürünler veya kampanyalarla ilgileri çekilebilir.
+- **New Customers (Yeni Müşteriler):**                   Yeni müşterilere hoş geldin teklifleri sunulabilir ve ilk alışverişlerinde indirimler sağlanabilir.
+- **Need Attention (Dikkat Edilmesi Gerekenler):**       Memnuniyetsiz veya şikayetçi müşteriler. Sorunlarını çözmek için özel ilgi gösterilmelidir. Geri ödeme veya değişim gibi çözümler sunulabilir.
+- **Can't Lose (Kaybedilemeyecekler):**                  Potansiyel müşteri kaybı riski olanlar. Elde tutmak için özel teklifler sunulabilir.
+- **At Risk (Risk Altındakiler):**                       Kaybedilmesi riski olan müşteriler. Özel indirimler veya kampanyalarla tekrar kazanılmaya çalışılabilir.
+- **About to Sleep (Uyumak Üzere Olanlar):**             Az alışveriş yapan müşteriler. Aktif hale getirmek için özel teklifler sunulabilir.
+- **Hibernating (Uykuda Olanlar):**                      Alışveriş yapmayan eski müşteriler. Geri kazanmak için özel teklifler ve hatırlatıcı mesajlar gönderilebilir.
 
-These customers are planned to be "loyal customers (champions, loyal_customers)" and those who shop in the women's category.
 
-Find the customer IDs of these profiled customers.
+__________________________________
+
+#### Soru 2 :
+FLO bünyesine dahil edilen yeni bir kadın ayakkabı markasının tanıtımı ve ürün satışları için ilgilenecek profildeki müşterilerle özel olarak iletişime geçilmek isteniliyor.
+
+Bu müşterilerin "sadık müşterilerden (champions, loyal_customers) ve kadın kategorisinden alışveriş yapan kişiler" olması planlandı. Bu profildeki müşterilerin id numaralarını bulunuz.
 
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 10 33 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/10ef2888-7a8d-4f5e-96e8-873c1adef770">
 
-#### Question 3:
-A discount of nearly 40% is planned for FLO's men's and children's products.
+__________________________________
 
-The company wants to target customers interested in these categories who were "good customers in the past but haven't shopped for a long time" and "new customers."
 
-Find the customer IDs of these profiled customers.
+#### Soru 3 :
+FLO Erkek ve Çoçuk ürünlerinde %40'a yakın indirim planlanmaktadır.
+
+Bu indirimle ilgili kategorilerle ilgilenen "geçmişte iyi müşterilerden olan ama uzun süredir alışveriş yapmayan" ve "yeni gelen müşteriler" özel olarak hedef alınmak isteniliyor. Bu profildeki müşterilerin id numaralarını bulunuz.
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 09 42 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/2e3f94fb-2677-4932-b06e-b0994ca90052">
 
 
+__________________________________
+### Sonuç:
 
-
-### Conclusion:
-
-This project demonstrated the importance of using data to understand customers and make informed business decisions.
-
-By utilizing RFM analysis, the company can refine its marketing strategies and build stronger relationships with customers for long-term success.
-
+Bu projede RFM analizi sonucunda elde edilen müşteri segmentlerini, şirket kullanarak pazarlama stratejilerini geliştirebilir ve uzun vadeli başarı için müşterileriyle daha güçlü ilişkiler kurabilir.
 
