@@ -31,8 +31,7 @@
 # Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerini satın alma alışkanlıkları üzerinden segmentlere ayırmak ve bu segmentler özelinde stratejiler geliştirmek istiyor.
 # Ayrıca aşağıda, 7. adımda "Project's Business Questions" bölümunde yer alan soruların cevaplanması bekleniyor.
 
-# Veri Seti Hikayesi
-# Veri seti, son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
+# Yaklaşık 20.000 müşteriye ait bilgileri içeren veri seti, son alışverişlerini 2020-2021 yıllarında OmniChannel (hem online hem offline alışveriş) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
 
 # Değişkenler
 # master_id                         : Eşsiz müşteri numarası
@@ -282,12 +281,11 @@ new_df.to_csv("cant_loose_customers.csv")
 # 7. PROJECT'S BUSINESS QUESTIONS
 ##################################################################################
 
-##########
+####################
 # GÖREV 1:
-##########
-# Segmentlerin recency, frequency ve monetary ortalamalarını inceleyiniz.
+####################
+# Müşteri Segmentlerinin Recency, Frequency ve Monetary ortalamalarını inceleyiniz.
 rfm.groupby("segment").agg({"recency": ["mean", "count"], "frequency": ["mean", "count"], "monetary": ["mean", "count"]})
-# veya rfm[["recency", "frequency", "monetary", "segment"]].groupby("segment").agg(["mean", "count"])
 
 #                          recency       frequency       monetary
 #                        mean count      mean count     mean count
@@ -304,11 +302,25 @@ rfm.groupby("segment").agg({"recency": ["mean", "count"], "frequency": ["mean", 
 # promising             58.92   647      2.00   647   335.67   647
 
 
-
-
 ##########
+# Müşteri Segmentlerine Göre Öneriler:
+##########
+# Champions (Şampiyonlar):                           En değerli müşteriler. Özel teşviklerle ve VIP müşteri programları ile memnuniyetleri artırılabilir.
+# Loyal Customers (Sadık Müşteriler):                Düzenli alışveriş yapan müşteriler. Satışları artırmak için mevcut alışveriş alışkanlıklarına uygun ürün ve hizmetler önerilebilir.
+# Potential Loyalists (Potansiyel Sadık Müşteriler): Sadık müşteri olma potansiyeline sahip olanlar. Daha fazla alışveriş yapmaları için özel tekliflerle teşvik edilebilirler.
+# Promising (Umut Vadedenler):                       Potansiyel değer taşıyan müşteriler. Yeni ürünler veya kampanyalarla ilgileri çekilebilir.
+# New Customers (Yeni Müşteriler):                   Yeni müşterilere hoş geldin teklifleri sunulabilir ve ilk alışverişlerinde indirimler sağlanabilir.
+# Need Attention (Dikkat Edilmesi Gerekenler):       Nötr gruptur, daha üst bir segmente çıkarmak için özel ilgi gösterilmelidir.
+# Can't Lose (Kaybedilemeyecekler):                  Potansiyel müşteri kaybı riski olanlar. Elde tutmak için özel teklifler sunulabilir.
+# At Risk (Risk Altındakiler):                       Kaybedilmesi riski olan müşteriler. Özel indirimler veya kampanyalarla tekrar kazanılmaya çalışılabilir.
+# About to Sleep (Uyumak Üzere Olanlar):             Az alışveriş yapan müşteriler. Aktif hale getirmek için özel teklifler sunulabilir.
+# Hibernating (Uykuda Olanlar):                      Alışveriş yapmayan eski müşteriler. Geri kazanmak için özel teklifler ve hatırlatıcı mesajlar gönderilebilir.
+
+
+
+####################
 # GÖREV 2:
-##########
+####################
 # FLO bünyesine yeni bir kadın ayakkabı markası dahil ediyor. Bu markanın ürün fiyatları genel müşteri tercihlerinin üstünde.
 # Bu nedenle markanın tanıtımı ve ürün satışları için ilgilenecek profildeki müşterilerle özel olarak iletişime geçilmek isteniliyor.
 # Bu müşterilerin "sadık müşterilerden (champions, loyal_customers) ve kadın kategorisinden alışveriş yapan kişiler" olması planlandı.
@@ -335,9 +347,9 @@ merged_df.to_csv("yeni_marka_hedef_müşteri_id.csv")
 
 
 
-##########
+####################
 # GÖREV 3:
-##########
+####################
 # FLO Erkek ve Çoçuk ürünlerinde %40'a yakın indirim planlanmaktadır.
 # Bu indirimle ilgili kategorilerle ilgilenen "geçmişte iyi müşterilerden olan ama uzun süredir alışveriş yapmayan" ve "yeni gelen müşteriler" özel olarak hedef alınmak isteniliyor.
 # Uygun profildeki müşterilerin id'lerini csv dosyasına indirim_hedef_müşteri_ids.csv olarak kaydediniz.
