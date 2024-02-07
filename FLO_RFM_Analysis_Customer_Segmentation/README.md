@@ -1,46 +1,44 @@
-## PROJECT : FLO | RFM Analizi ile Müşteri Segmentasyonu 
-#### (Customer Segmentation with RFM Analysis)
+## PROJECT : FLO | Customer Segmentation with RFM Analysis
 
-RFM analizi; Recency, Frequency, Monetary metriklerinden faydalanarak, müşteri segmentasyonu için kullanılan bir tekniktir.
+RFM analysis is a technique used for customer segmentation based on Recency, Frequency, and Monetary metrics.
 
-Müşterilerin satın alma alışkanlıkları üzerinden segmentlere ayrılmasını, ve bu segmentler özelinde stratejiler geliştirilmesini sağlar.
+It divides customers into segments based on their purchasing habits, enabling the development of tailored strategies.
 
-- Recency   = Analiz tarihi - Müşterinin son satın alma tarihi
-- Frequency = Müşterinin toplam satın alma sayısı   (toplam işlem veya fatura sayısı)
-- Monetary  = Müşterinin TOPLAM Harcama tutarı
-
-______________________________
-
-
-### 1. İŞ PROBLEMI / PROJE HEDEFİ
-
-Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerini satın alma alışkanlıkları üzerinden segmentlere ayırmak ve bu segmentler özelinde stratejiler geliştirmek istiyor.
-
-Ayrıca aşağıda, 7. adımda "Project's Business Questions" bölümunde yer alan soruların cevaplanması bekleniyor.
-
-Veri seti, son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
-
+- Recency = Analysis date - Customer's last purchase date
+- Frequency = Total number of customer purchases (total transactions or invoices)
+- Monetary = Total amount spent by the customer
 
 ______________________________
 
-### 2. PROJE AŞAMALARI
 
-1. İş Problemi (Business Problem)
-2. Veriyi Anlama (Data Understanding)
-3. Veri Hazırlama (Data Preparation)
-4. RFM Metriklerinin Hesaplanması (Calculating RFM Metrics: Recency, Frequency, Monetary sütunlarını olusturma)
-5. RFM Skorlarının Hesaplanması (Calculating RFM Scores)
-6. RFM Segmentlerinin Oluşturulması ve Analiz Edilmesi (Creating & Analysing RFM Segments)
+### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
+FLO, one of the leading footwear companies in Turkey, aims to segment its customers based on their purchasing habits and develop strategies for each segment.
+
+Additionally, the questions listed in step 7, "Project's Business Questions," are expected to be answered.
+
+The dataset consists of historical purchase behaviors of customers who made their last purchases in 2020 - 2021 through OmniChannel (both online and offline) channels.
+
+
+______________________________
+
+### 2. PROJECT STEPS
+
+1. Business Problem
+2. Data Understanding
+3. Data Preparation
+4. Calculating RFM Metrics: Recency, Frequency, Monetary columns creation
+5. Calculating RFM Scores
+6. Creating & Analyzing RFM Segments
 7. Project's Business Questions
-8. BONUS: Tüm Sürecin Fonksiyonlaştırılması
+8. BONUS: Functioning the Entire Process
 
 
 ______________________________
 
-### 3. PROJE SONUÇLARI
+### 3. PROJECT RESULTS
 
-#### Soru 1:
-#### Oluşturulan Müşteri Segmentleri & Segment Bazlı Recency, Frequency ve Monetary Ortalamaları nasıldır?
+#### Question 1:
+#### What are the Created Customer Segments & Segment-Based Recency, Frequency, and Monetary Averages?
 
 <img width="600" alt="Screen Shot 2024-02-07 at 11 46 30 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/7594c4ab-b765-4d3a-b91a-8dd416f2455c">
 
@@ -48,22 +46,22 @@ ______________________________
 
 
 
-#### Soru 2 :
-FLO bünyesine dahil edilen yeni bir kadın ayakkabı markasının tanıtımı ve ürün satışları için ilgilenecek profildeki müşterilerle özel olarak iletişime geçilmek isteniliyor.
+#### Question 2:
+A new women's shoe brand has been introduced to FLO, and the company wants to reach out to customers who are interested in the introduction and sales of this product.
 
-Bu müşterilerin "sadık müşterilerden (champions, loyal_customers) ve kadın kategorisinden alışveriş yapan kişiler" olması planlandı.
+These customers are planned to be "loyal customers (champions, loyal_customers)" and those who shop in the women's category.
 
-Bu profildeki müşterilerin id numaralarını bulunuz.
+Find the customer IDs of these profiled customers.
 
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 10 33 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/10ef2888-7a8d-4f5e-96e8-873c1adef770">
 
-#### Soru 3 :
-FLO Erkek ve Çoçuk ürünlerinde %40'a yakın indirim planlanmaktadır.
+#### Question 3:
+A discount of nearly 40% is planned for FLO's men's and children's products.
 
-Bu indirimle ilgili kategorilerle ilgilenen "geçmişte iyi müşterilerden olan ama uzun süredir alışveriş yapmayan" ve "yeni gelen müşteriler" özel olarak hedef alınmak isteniliyor.
+The company wants to target customers interested in these categories who were "good customers in the past but haven't shopped for a long time" and "new customers."
 
-Bu profildeki müşterilerin id numaralarını bulunuz.
+Find the customer IDs of these profiled customers.
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 09 42 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/2e3f94fb-2677-4932-b06e-b0994ca90052">
 
@@ -72,10 +70,10 @@ Bu profildeki müşterilerin id numaralarını bulunuz.
 
 
 
-### Sonuç:
+### Conclusion:
 
-Bu proje, müşterileri anlamak ve bilinçli iş kararları vermek için verileri kullanmanın önemini gösterdi.
+This project demonstrated the importance of using data to understand customers and make informed business decisions.
 
-Şirket, RFM analizini kullanarak pazarlama stratejilerini geliştirebilir ve uzun vadeli başarı için müşterileriyle daha güçlü ilişkiler kurabilir.
+By utilizing RFM analysis, the company can refine its marketing strategies and build stronger relationships with customers for long-term success.
 
 
