@@ -1,4 +1,4 @@
-## PROJECT : FLO | Customer Segmentation with RFM Analysis
+FLO | Customer Segmentation with RFM Analysis
 
 RFM analysis is a technique used for customer segmentation based on Recency, Frequency, and Monetary metrics.
 
@@ -14,8 +14,6 @@ ______________________________
 ### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
 FLO, one of the leading footwear companies in Turkey, aims to segment its customers based on their purchasing habits and develop strategies for each segment.
 
-Additionally, the questions listed in step 7, "Project's Business Questions," are expected to be answered.
-
 The dataset consists of historical purchase behaviors of customers who made their last purchases in 2020 - 2021 through OmniChannel (both online and offline) channels.
 
 
@@ -23,14 +21,11 @@ ______________________________
 
 ### 2. PROJECT STEPS
 
-1. Business Problem
-2. Data Understanding
-3. Data Preparation
-4. Calculating RFM Metrics: Recency, Frequency, Monetary columns creation
-5. Calculating RFM Scores
-6. Creating & Analyzing RFM Segments
-7. Project's Business Questions
-8. BONUS: Functioning the Entire Process
+1. Data Understanding
+2. Data Preparation
+3. Calculating RFM Metrics: Recency, Frequency, Monetary columns creation
+4. Calculating RFM Scores
+5. Creating & Analyzing RFM Segments
 
 
 ______________________________
@@ -64,8 +59,6 @@ The company wants to target customers interested in these categories who were "g
 Find the customer IDs of these profiled customers.
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 09 42 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/2e3f94fb-2677-4932-b06e-b0994ca90052">
-
-
 
 
 
