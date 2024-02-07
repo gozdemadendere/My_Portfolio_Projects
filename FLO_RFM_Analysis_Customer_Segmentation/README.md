@@ -1,4 +1,4 @@
-FLO | Customer Segmentation with RFM Analysis
+## FLO | Customer Segmentation with RFM Analysis
 
 RFM analysis is a technique used for customer segmentation based on Recency, Frequency, and Monetary metrics.
 
