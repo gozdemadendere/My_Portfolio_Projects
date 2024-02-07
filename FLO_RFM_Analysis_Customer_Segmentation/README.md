@@ -1,65 +1,62 @@
-## FLO | RFM Analizi ile Müşteri Segmentasyonu  (Customer Segmentation with RFM Analysis)
+## Customer Segmentation with RFM Analysis
 
-RFM analizi; Recency, Frequency, Monetary metriklerinden faydalanarak, müşteri segmentasyonu için kullanılan bir tekniktir.
+RFM analysis is a technique used for customer segmentation, utilizing Recency, Frequency, and Monetary metrics.
 
-Müşterilerin satın alma alışkanlıkları üzerinden segmentlere ayrılmasını, ve bu segmentler özelinde stratejiler geliştirilmesini sağlar.
+It allows for segmenting customers based on their purchasing habits and enables the development of strategies tailored to these segments.
 
-- Recency   = Analiz tarihi - Müşterinin son satın alma tarihi
-- Frequency = Müşterinin toplam satın alma sayısı   (toplam işlem veya fatura sayısı)
-- Monetary  = Müşterinin TOPLAM Harcama tutarı
-
-______________________________
-
-
-### 1. İŞ PROBLEMİ / PROJE HEDEFİ
-
-Türkiye ayakkabı pazarının öncü firmalarından FLO, müşterilerini satın alma alışkanlıkları üzerinden segmentlere ayırmak ve bu segmentler özelinde stratejiler geliştirmek istiyor.
-
-Veri seti, son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
-
+- Recency = Analysis date - Customer's last purchase date
+- Frequency = Total number of purchases by the customer (total transactions or invoice count)
+- Monetary = Total amount spent by the customer
 
 ______________________________
 
-### 2. PROJE AŞAMALARI
 
-1. Veriyi Anlama (Data Understanding)
-2. Veri Hazırlama (Data Preparation)
-3. RFM Metriklerinin Hesaplanması (Calculating RFM Metrics: Recency, Frequency, Monetary sütunlarını olusturma)
-4. RFM Skorlarının Hesaplanması (Calculating RFM Scores)
-5. RFM Segmentlerinin Oluşturulması ve Analiz Edilmesi (Creating & Analysing RFM Segments)
+### 1. Business Problem / Project Objective
+
+FLO, one of the leading companies in the Turkish shoe market, aims to segment its customers based on their purchasing habits and develop strategies tailored to these segments.
+
+The dataset consists of information derived from the past shopping behaviors of customers who made their last purchases OmniChannel (both online and offline shopping) in the years 2020 - 2021.
+
 
 ______________________________
 
-### 3. PROJE SONUÇLARI
+### 2. Project Stages
 
-#### Soru 1:
-Oluşturulan Müşteri Segmentleri & Segment Bazlı Recency, Frequency ve Monetary Ortalamaları nasıldır?
+1. Data Understanding
+2. Data Preparation
+3. Calculating RFM Metrics: Recency, Frequency, Monetary columns
+4. Calculating RFM Scores
+5. Creating & Analyzing RFM Segments
+
+______________________________
+
+### 3. Project Results
+
+#### Question 1:
+
+What are the created Customer Segments & Segment-Based Recency, Frequency, and Monetary Averages?
 
 <img width="600" alt="Screen Shot 2024-02-07 at 11 46 30 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/7594c4ab-b765-4d3a-b91a-8dd416f2455c">
 
 <img width="400" alt="Screen Shot 2024-02-07 at 11 51 24 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/5107b094-98e4-4e76-84f8-3f1a3bb27f1f">
 
 
-#### Müşteri Segmentlerine Göre Öneriler:
-
-- **Champions (Şampiyonlar):**                          En değerli müşteriler. Özel teşviklerle ve VIP müşteri programları ile memnuniyetleri artırılabilir.
-- **Loyal Customers (Sadık Müşteriler):**                Düzenli alışveriş yapan müşteriler. Satışları artırmak için mevcut alışveriş alışkanlıklarına uygun ürün ve hizmetler önerilebilir.
-- **Potential Loyalists (Potansiyel Sadık Müşteriler):** Sadık müşteri olma potansiyeline sahip olanlar. Daha fazla alışveriş yapmaları için özel tekliflerle teşvik edilebilirler.
-- **Promising (Umut Vadedenler):**                       Potansiyel değer taşıyan müşteriler. Yeni ürünler veya kampanyalarla ilgileri çekilebilir.
-- **New Customers (Yeni Müşteriler):**                   Yeni müşterilere hoş geldin teklifleri sunulabilir ve ilk alışverişlerinde indirimler sağlanabilir.
-- **Need Attention (Dikkat Edilmesi Gerekenler):**       Memnuniyetsiz veya şikayetçi müşteriler. Sorunlarını çözmek için özel ilgi gösterilmelidir. Geri ödeme veya değişim gibi çözümler sunulabilir.
-- **Can't Lose (Kaybedilemeyecekler):**                  Potansiyel müşteri kaybı riski olanlar. Elde tutmak için özel teklifler sunulabilir.
-- **At Risk (Risk Altındakiler):**                       Kaybedilmesi riski olan müşteriler. Özel indirimler veya kampanyalarla tekrar kazanılmaya çalışılabilir.
-- **About to Sleep (Uyumak Üzere Olanlar):**             Az alışveriş yapan müşteriler. Aktif hale getirmek için özel teklifler sunulabilir.
-- **Hibernating (Uykuda Olanlar):**                      Alışveriş yapmayan eski müşteriler. Geri kazanmak için özel teklifler ve hatırlatıcı mesajlar gönderilebilir.
-
-
+Customer Segment Recommendations:
+- Champions: Most valuable customers. Their satisfaction can be increased with special incentives and VIP customer programs.
+- Loyal Customers: Customers who make regular purchases. Products and services tailored to their existing shopping habits can be recommended to increase sales.
+- Potential Loyalists: Customers with the potential to become loyal. They can be encouraged to make more purchases with special offers.
+- Promising: Customers with potential value. Their interest can be drawn with new products or campaigns.
+- New Customers: Welcome offers can be provided to new customers, and discounts can be offered on their first purchases.
+- Need Attention: Dissatisfied or complaining customers. Special attention should be given to resolving their issues, and solutions like refunds or exchanges can be offered.
+- Can't Lose: Customers at risk of potential loss. Special offers can be provided to retain them.
+- At Risk: Customers at risk of being lost. Efforts can be made to regain them with special discounts or campaigns.
+- About to Sleep: Customers who make few purchases. Special offers can be provided to activate them.
+- Hibernating: Former customers who are not making purchases. Special offers and reminders can be sent to re-engage them.
 __________________________________
 
-#### Soru 2 :
-FLO bünyesine dahil edilen yeni bir kadın ayakkabı markasının tanıtımı ve ürün satışları için ilgilenecek profildeki müşterilerle özel olarak iletişime geçilmek isteniliyor.
+#### Question 2:
 
-Bu müşterilerin "sadık müşterilerden (champions, loyal_customers) ve kadın kategorisinden alışveriş yapan kişiler" olması planlandı. Bu profildeki müşterilerin id numaralarını bulunuz.
+FLO wants to reach out specifically to customers interested in the promotion and sales of a new women's shoe brand, who are "loyal customers (champions, loyal_customers)" and those who shop in the women's category. Find the IDs of these customers.
 
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 10 33 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/10ef2888-7a8d-4f5e-96e8-873c1adef770">
@@ -67,16 +64,15 @@ Bu müşterilerin "sadık müşterilerden (champions, loyal_customers) ve kadın
 __________________________________
 
 
-#### Soru 3 :
-FLO Erkek ve Çoçuk ürünlerinde %40'a yakın indirim planlanmaktadır.
+#### Question 3:
+FLO plans to offer a discount of nearly 40% on men's and children's products.
 
-Bu indirimle ilgili kategorilerle ilgilenen "geçmişte iyi müşterilerden olan ama uzun süredir alışveriş yapmayan" ve "yeni gelen müşteriler" özel olarak hedef alınmak isteniliyor. Bu profildeki müşterilerin id numaralarını bulunuz.
+They want to target "past good customers who haven't shopped for a long time" and "new customers" interested in these categories. Find the IDs of these customers.
 
 <img width="600" alt="Screen Shot 2024-02-07 at 12 09 42 PM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/2e3f94fb-2677-4932-b06e-b0994ca90052">
 
 
 __________________________________
-### Sonuç:
-
-Bu projede RFM analizi sonucunda elde edilen müşteri segmentlerini, şirket kullanarak pazarlama stratejilerini geliştirebilir ve uzun vadeli başarı için müşterileriyle daha güçlü ilişkiler kurabilir.
+### Conclusion:
+Through RFM analysis in this project, the company can develop marketing strategies and establish stronger relationships with customers for long-term success.
 
