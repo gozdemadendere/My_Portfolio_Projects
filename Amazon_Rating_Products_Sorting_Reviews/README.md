@@ -65,5 +65,6 @@ __________________________________
 Overall, this project underscores the importance of a data-driven approach in overcoming key challenges in e-commerce. It can ultimately lead to increased customer satisfaction, enhanced trust in the relevant e-commerce platform and seller, and improved product and review visibility.
 
 
-
+** My Medium article about this project:
+[Rating Products & Sorting Reviews on Amazon](https://medium.com/python-in-plain-english/rating-products-sorting-reviews-in-amazon-e7d7b1908d41)
 
