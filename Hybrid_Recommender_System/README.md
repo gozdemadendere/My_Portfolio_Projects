@@ -1,42 +1,48 @@
 ###  MOVIE RECOMMENDER SYSTEM | HYBRID RECOMMENDER SYSTEM
 
-Collaborative Filtering: Topluluğun kullanıcı veya ürün bazında ortak kanaatlerini yansıtan öneriler sunulur.
+Collaborative Filtering: Recommendations reflecting the collective opinions of the community on either user or item basis are provided.
 
-- Item-Based Collaborative Filtering: Bir ürünün özelliklerine dayanarak, benzer ürünler önerir.  Kullanıcıların geçmiş tercihlerine bakmak yerine, bir ürünün diğer ürünlerle olan benzerliklerine odaklanır.
+- Item-Based Collaborative Filtering: Recommends similar items based on the characteristics of a product. It focuses on the similarities between items rather than looking at users' past preferences.
 
-- User-Based Collaborative Filtering: Benzer kullanıcıların tercihlerine dayanarak bir kullanıcıya öğeler önerir.
+- User-Based Collaborative Filtering: Recommends items to a user based on the preferences of similar users.
 
 
 ______________________________
 
 
-### 1. İŞ PROBLEMİ / PROJE HEDEFİ
+### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
 
-Movie Recommender Systems projesinde, Item-Based Recommender ve User-Based Recommender yöntemlerini kullanarak kullanıcıya film önerilerinde bulununuz.
+In the Movie Recommender Systems project, recommend films to users using both Item-Based Recommender and User-Based Recommender methods.
 
 ______________________________
 
-### 2. PROJE AŞAMALARI
+### 2. PROJECT STEPS
 
-1. Veriyi Anlama & Hazırlama
+1. Data Understanding & Preparation
 2. Item-Based Collaborative Filtering
 3. User-Based Collaborative Filtering
 
 
 ______________________________
 
-### 3. PROJE SONUÇLARI
+### 3. PROJECT RESULTS
 
-#### Film İzleyen Kullanıcılara Başka Film Önerisinde Bulunmak
+**Recommending Other Films to Movie Viewers**
 
-Örnek: Wild at Heart (1990) isimli filme en benzer filmler önerilmiştir:
+Example: Films most similar to Wild at Heart (1990) have been recommended:
+
 
 <img width="755" alt="Screen Shot 2024-02-24 at 10 04 07 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects_/assets/90986708/7922ab57-0804-4543-a21b-e79aeeb93fdf">
 
 
 __________________________________
-### Sonuç:
+### Conclusion:
 
-Film Öneri Sistemi projesi, hem Item-Based Collaborative Filtering hem de User-Based Collaborative Filtering yöntemlerini kullanarak kullanıcılara film önerilerinde bulunmayı amaçlamaktadır.
+The Movie Recommendation System project aims to provide users with film recommendations using both Item-Based Collaborative Filtering and User-Based Collaborative Filtering methods.
 
-Bu projenin genel olarak başarılı bir şekilde uygulanmasıyla, film izleyen kullanıcılara daha kişiselleştirilmiş ve ilgi çekici film önerileri sunulması sağlanmıştır. Bu da kullanıcı memnuniyetini artırarak platformdaki etkileşimi ve kullanımı artırabilir.
+Successfully implementing this project has led to more personalized and engaging film recommendations for movie viewers. This can enhance user satisfaction, thereby increasing interaction and usage on the platform.
+
+
+
+
+
