@@ -1,11 +1,5 @@
 ## Data Cleaning & Storytelling | Python 
 
-📌 My Medium Articles:
-
-[Data Cleaning: Most Helpful Python Pandas Methods](https://medium.com/@gozdebarin/data-cleaning-most-helpful-python-pandas-methods-c91a36016529)
-
-[Data Manipulation with Python Pandas: Sorting, Grouping, Merging, and Joining](https://medium.com/@gozdebarin/data-manipulation-with-python-pandas-sorting-grouping-merging-and-joining-19e22883ae5d)
-
 ### Project Objectives & Overview
 #### 1. Business Problem
 
@@ -24,11 +18,8 @@ The main goal of this project is to implement the data cleaning and data quality
 
 In addition, we should answer some business questions about the use of discounts for the Eniac company.
 
-#### 3. Technical Skills 
 
-- Python (Pandas, Matplotlib, Seaborn)
-
-#### 4. Conclusions
+#### 3. Conclusions
 
 **Final Recommendation:** Discounts should continue, but with a fixed upper limit of 30% as more revenue is provided with discounts of up to 30%. 
 
@@ -37,7 +28,7 @@ In addition, we should answer some business questions about the use of discounts
 - Discounts should especially concentrate on special holidays like Black Friday and Cyber Monday.
 
 
-#### 5. Improvement of Data Collection
+#### 4. Improvement of Data Collection
 
 - Price: Formatting of price should be standardized (with two decimals).
 
@@ -52,7 +43,7 @@ In addition, we should answer some business questions about the use of discounts
 - Discounts: Share specific details about the discounts like: general, individualised etc.
 
 _____________
-### Python Visualizations:
+### Python Data Visualizations:
 
 <img width="1286" alt="Screen Shot 2023-04-21 at 12 32 02 AM" src="https://user-images.githubusercontent.com/90986708/233501006-24c8893c-6633-4d0a-a5a0-b847fee7bf4d.png">
 
@@ -65,6 +56,13 @@ _____________
 <img width="1286" alt="Screen Shot 2023-04-21 at 12 32 28 AM" src="https://user-images.githubusercontent.com/90986708/233501072-a6a1ce22-fb6b-4724-89bb-a487f51313a5.png">
 
 <img width="1286" alt="Screen Shot 2023-04-21 at 12 32 36 AM" src="https://user-images.githubusercontent.com/90986708/233501085-e2d748ce-8cc2-488a-981f-a79993e7a648.png">
+
+
+📌 My Medium Articles:
+
+[Data Cleaning: Most Helpful Python Pandas Methods](https://medium.com/@gozdebarin/data-cleaning-most-helpful-python-pandas-methods-c91a36016529)
+
+[Data Manipulation with Python Pandas: Sorting, Grouping, Merging, and Joining](https://medium.com/@gozdebarin/data-manipulation-with-python-pandas-sorting-grouping-merging-and-joining-19e22883ae5d)
 
 
 
