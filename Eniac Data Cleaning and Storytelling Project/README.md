@@ -14,7 +14,7 @@ The main goal of this project is to implement the data cleaning and data quality
 
 - Evaluating the impact of discounts on sales/revenue
 
-- Make a recommendation for more discounts 
+- Make a recommendation for more discounts  
 
 In addition, we should answer some business questions about the use of discounts for the Eniac company.
 
