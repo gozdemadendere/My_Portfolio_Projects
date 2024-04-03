@@ -9,7 +9,7 @@
 
 Kevin Cookie Company would like to have a dashboard that displays an overview of the performance and sales of the different types of cookies sold.
 
-#### 2. Purpose of the Project
+#### 2. Purpose of the Project 
 
 I've created and desighned a dashboard using Excel to highlight the most important information and key performance indicators (KPIs) for Kevin Cookie Company.
 The dashboard is dynamic & interactive and adjusts depending on the country, months, and products selected via the slicer.
