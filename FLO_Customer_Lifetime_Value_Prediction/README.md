@@ -11,7 +11,7 @@ It helps companies manage their relationships with customers and support marketi
 CLV Prediction = Expected number of purchases x Expected average profit
 
 ______________________________
-
+ 
 
 ### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
 FLO, one of the leading companies in the Turkish shoe market, wants to predict the revenue their customers will generate and segment them based on these CLV values.
