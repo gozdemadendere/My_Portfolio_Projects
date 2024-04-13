@@ -16,7 +16,7 @@ A couple of assessments will have to be made:
 
 #### 3. Technical Skills
 
-- Python (Scikit-Learn, Pandas, Matplotlib), Requests (API)
+- Python (Scikit-Learn, Pandas, Matplotlib), Requests (API) 
 
 - Unsupervised Machine Learning Algorithms (K-Means Clustering)
   
