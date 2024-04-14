@@ -1,10 +1,7 @@
 ## Business Analysis  & Data Exploration | SQL & Tableau
 
-### Project Objectives & Overview
-#### 1. Overview
+#### Project Objectives & Overview
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
- 
-#### 2. Purpose of the Project
 
 The main objective of this project is to answer this question: Should Eniac to sign a contract with Magist, a Software company that offers a centralized order management system?
 
@@ -13,19 +10,12 @@ The main objective of this project is to answer this question: Should Eniac to s
 - Among Eniac’s efforts to have happy customers, fast deliveries are key. Are deliveries fast enough on Magist?
 
 Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL and visualizing with Tableau.
+__________________
+#### 2. Technical Skills  
 
-#### 3. Technical Skills  
-
-SQL (Data Analysis) & Tableau (Data Visualization)
-
-- **SQL Functions:** Includes SELECT, DISTINCT, WHERE, AND, OR, IN, NOT IN, BETWEEN LIKE, wildcards, NULL, NOT NULL, ORDER BY.
-
-- **SQL Aggregation:**  This part includes COUNT, COUNT DISTINCT, SUM, AVG, MAX, MIN, GROUP BY, and HAVING.
-
-- **SQL Analysis:** This is where I thought analytically and answer the questions using advanced SQL techniques. This part includes JOINS, CASE statements, and Subqueries.
-
-
-#### 4. Conclusions
+SQL Queries (Data Analysis) & Tableau (Data Visualization)
+__________________
+#### 3. Conclusions
 
 **Final Recommendation:** 
 
@@ -43,8 +33,8 @@ There is a lack of data to make a better decision.
 
 
 **However, according to the available data, Magist is not a good fit for high-quality tech products.**
-
-#### 5. Improvement of Data Collection
+__________________
+#### 4. Improvement of Data Collection
 - It would be great to see **brand information** for Magist Marketplaces as Eniac only sells Apple compatible (high quality) products.
 - It would be better to have product **names and descriptions** as they will give us more information.
 
