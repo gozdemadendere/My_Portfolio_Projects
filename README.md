@@ -2,22 +2,22 @@
 <img width="1227" alt="Screen Shot 2023-04-25 at 10 58 58 PM" src="https://user-images.githubusercontent.com/90986708/234402332-3234c4a5-9ded-49ae-9e17-8c102a1e525d.png">
 
 - [Heart Attack Prediction App ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart_Attack_Prediction_App)| Supervised Machine Learning, Python (Scikit-Learn, Plotly, Pandas), Streamlit
-- [Data Cleaning & Storytelling](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project)  |  Python (Pandas, Seaborn, Matplotlib)
 - [Business Analysis & Data Exploration](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration) |  SQL, Tableau
-- [Exploratory Data Analysis (EDA)](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis) |  Python (Pandas, Plotly, Seaborn, Matplotlib)
+- [Data Cleaning & Storytelling](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project)  |  Python (Pandas, Seaborn, Matplotlib)
 - [Amazon - Rating Products & Sorting Reviews](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Amazon_Rating_Products_Sorting_Reviews)  | Python
 - [FLO - RFM Analysis & Customer Segmentation](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/FLO_RFM_Analysis_Customer_Segmentation) | Python (Pandas, Seaborn)
 - [FLO - Customer Lifetime Value Prediction](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/FLO_Customer_Lifetime_Value_Prediction)  | Python (Pandas)
+- [Armut - Association Rule Based Recommender](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Armut_Association_Rule_Based_Recommender) | Python
+- [Exploratory Data Analysis (EDA)](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Heart%20Attack%20Exploratory%20Data%20Analysis) |  Python (Pandas, Plotly, Seaborn, Matplotlib)
 - [A/B Testing - Comparison of 2 Bidding Methods](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/AB_Testing_Project_Two_Sample_T_Test)  |  Python
 - [A/B Testing - Comparison of Montana State University Website Buttons](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/AB_Testing_Project_Chi_Square_Test)  |  Python
 - [Rule Based Customer Segmentation Process](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Customer_Segmentation_Process)
-- [Armut - Association Rule Based Recommender](https://github.com/gozdemadendere/My_Portfolio_Projects_/tree/main/Armut_Association_Rule_Based_Recommender) | Python
 - [Movie Recommender System](https://github.com/gozdemadendere/My_Portfolio_Projects/tree/main/Hybrid_Recommender_System) | Python
 - [House Prices Prediction ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning) | Supervised Machine Learning, Python (Scikit-Learn, Pandas)
-- [Spotify Clustering Songs ](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Spotify%20Clustering%20Songs%20Unsupervised%20Machine%20Learning%20Project) | Unsupervised Machine Learning, Python (Scikit-Learn, Pandas)
 - [Interactive Excel Dashboard](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard) | MS Excel
 - [Retail Analytics Dashboard](https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Tableau%20Data%20Visualization%20Projects) | Tableau (You can see the dashboard below.)
   
+
 [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
 <img width="1428" alt="Screen Shot 2023-12-20 at 5 51 44 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/1367e7fa-a558-4ca2-9128-8e5a39e90fc5">
 
