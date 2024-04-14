@@ -1,4 +1,4 @@
-## Business Analysis  & Data Exploration | SQL & Tableau
+## Business Analysis  & Data Exploration for the E-Commerce Company
 
 #### Project Objectives & Overview
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
