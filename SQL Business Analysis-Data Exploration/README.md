@@ -16,9 +16,7 @@ Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'l
 
 #### 3. Technical Skills  
 
-SQL (Data Analysis)
-
-Tableau (Data Visualization)
+SQL (Data Analysis) & Tableau (Data Visualization)
 
 - **SQL Functions:** Includes SELECT, DISTINCT, WHERE, AND, OR, IN, NOT IN, BETWEEN LIKE, wildcards, NULL, NOT NULL, ORDER BY.
 
