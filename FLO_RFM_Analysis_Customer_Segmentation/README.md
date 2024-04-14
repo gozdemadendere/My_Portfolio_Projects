@@ -36,9 +36,11 @@ ______________________________
 
 What are the created Customer Segments & Segment-Based Recency, Frequency, and Monetary Averages?
 
-<img width="600" alt="Screen Shot 2024-02-07 at 11 46 30 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/7594c4ab-b765-4d3a-b91a-8dd416f2455c">
+<img width="650" alt="Screen Shot 2024-02-07 at 11 46 30 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/7594c4ab-b765-4d3a-b91a-8dd416f2455c">
 
-<img width="400" alt="Screen Shot 2024-02-07 at 11 51 24 AM" src="https://github.com/gozdemadendere/miuul_data_science_bootcamp/assets/90986708/5107b094-98e4-4e76-84f8-3f1a3bb27f1f">
+
+<img width="665" alt="Screen Shot 2024-02-27 at 10 45 41 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects_/assets/90986708/3862ac9b-da8d-4889-8cd2-d7555db20fc2">
+
 
 
 Customer Segment Recommendations:
