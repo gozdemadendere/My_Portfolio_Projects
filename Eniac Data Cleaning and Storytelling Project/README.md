@@ -10,7 +10,7 @@ Specifically, they ask us to analyze and advise **whether it is beneficial to di
 #### 2. Purpose of the Project
 The main goal of this project is to implement the data cleaning and data quality process, which includes:
 
-- Evaluating and cleaning data to make it usable
+- Evaluating and cleaning data to make it usable 
  
 - Evaluating the impact of discounts on sales/revenue
 
