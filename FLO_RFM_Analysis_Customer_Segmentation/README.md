@@ -6,7 +6,7 @@ It allows for segmenting customers based on their purchasing habits and enables 
 
 - Recency = Analysis date - Customer's last purchase date
 - Frequency = Total number of purchases by the customer (total transactions or invoice count)
-- Monetary = Total amount spent by the customer
+- Monetary = Total amount spent by the customer 
 
 ______________________________
 
