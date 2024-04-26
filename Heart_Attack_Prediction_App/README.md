@@ -5,7 +5,7 @@
 
 This machine learning project aims to identify people's heart attack risk based on their medical attributes and to help healthcare providers.
 
-<img width="1169" alt="Screen Shot 2024-01-23 at 11 34 07 AM" src="https://github.com/gozdemadendere/Heart_Attack_Prediction_App_streamlit/assets/90986708/46a1f79d-b858-4274-b713-f1b228c504e3">
+<img width="1169" alt="Screen Shot 2024-01-23 at 11 34 07 AM" src="https://github.com/gozdemadendere/Heart_Attack_Prediction_App_streamlit/assets/90986708/46a1f79d-b858-4274-b713-f1b228c504e3"> 
 
 
 <img width="1169" alt="Screen Shot 2023-04-19 at 4 17 54 PM" src="https://user-images.githubusercontent.com/90986708/233104779-48255352-a199-4ae4-a4ff-76deee4d1d94.png">
