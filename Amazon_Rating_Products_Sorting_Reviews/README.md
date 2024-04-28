@@ -15,7 +15,6 @@ This dataset contains data for the product with the most reviews in the Amazon E
 
 Our objective is to develop a method for calculating product ratings and to sort customer reviews so that the most useful reviews are placed at the top.
 
-
 ______________________________
 
 ### 2. PROJECT STEPS
