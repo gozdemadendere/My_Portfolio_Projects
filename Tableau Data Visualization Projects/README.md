@@ -1,5 +1,9 @@
 
-##  Retail Analytics Dashboard  [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
+##  Retail Company Analytics Dashboard  [(See my interactive Tableau dashboards here.)](https://public.tableau.com/app/profile/gozdemadendere/vizzes)
+
+This retail dashboard is a tool that collects data from across the company and compiles the information into easy-to-understand visual formats.
+
+Users can drill down for a more detailed view of operations to see data on specific key performance indicators (KPIs) and relevant metrics, such as sales and profit on category, segment, or city based.
 
  
 ### Project Objectives & Overview
@@ -8,6 +12,9 @@
 The main aim of this project is to develop a comprehensive dashboard using the **Tableau BI Tool** to easily and quickly see the valuable insights for the company.
 
 The dashboard provides a summary of the company's analytical values, saves time, improves decision-making processes, and simplifies performance assessments.
+
+- This dashboard collects and tracks complex data and organize it into simple, easy-to-understand formats.
+- Decision-makers can use this information to identify trends, find places for improvements, and track changes in their retail operations.
 
 
 #### 2. The Dashboard
