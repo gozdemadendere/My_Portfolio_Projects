@@ -30,14 +30,18 @@ There are 32.951 products in Magist Marketplaces and **90%** of them are non-tec
 <img width="1084" alt="Screen Shot 2023-04-24 at 11 48 21 PM" src="https://user-images.githubusercontent.com/90986708/234124030-ed384b1f-41e6-4df5-834c-3d855f8162f7.png">
 
 
-**2) Product Fit:** Mostly **cheap products** are sold in Magist marketplaces. The average price of tech products in Magist Marketplaces is **€297**, but Eniac's Avg. Product Price is **€540**.
+**2) Product Fit:** Mostly **cheap products** are sold in Magist marketplaces, but Eniac sells mainly based on Apple-compatible (high-quality) accessories.
+
+
+<img width="1089" alt="Screen Shot 2023-04-25 at 12 08 38 AM" src="https://user-images.githubusercontent.com/90986708/234127271-5a9a0c3e-98b0-40ca-9335-375ab7a119e3.png">
+
+__________________
+
+The average price of tech products in Magist Marketplaces is **€297**, but Eniac's Avg. Product Price is **€540**.
 
 <img width="1084" alt="Screen Shot 2023-04-24 at 11 49 47 PM" src="https://user-images.githubusercontent.com/90986708/234124245-1783ef8f-6756-4c90-a471-da2900e70d0b.png">
 
 
-
-
-<img width="1089" alt="Screen Shot 2023-04-25 at 12 08 38 AM" src="https://user-images.githubusercontent.com/90986708/234127271-5a9a0c3e-98b0-40ca-9335-375ab7a119e3.png">
 
 **3) Revenue Composition:** In Magist Marketplaces, **80% of the revenue** comes from non-tech products.
   
