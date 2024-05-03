@@ -1,84 +1,107 @@
 USE magist;
 
 
--- Product Quantity Distibution (How was the distribution of tech products and non-tech products?)
+-- How was the distribution of tech products and non-tech products?
 
-SELECT product_category_name_english, COUNT(product_id) AS Product_quantity,
+-- Product Quantity Distibution 
+WITH cte AS(
+SELECT product_id, product_category_name_english,
 CASE
-WHEN (product_category_name_english = 'telephony') THEN 'telephony'
-WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
-WHEN (product_category_name_english = 'electronics') THEN 'electronics'
-WHEN (product_category_name_english = 'computers') THEN 'computers'
-WHEN (product_category_name_english = 'audio') THEN 'audio'
+	WHEN (product_category_name_english = 'telephony') THEN 'telephony'
+	WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
+	WHEN (product_category_name_english = 'electronics') THEN 'electronics'
+	WHEN (product_category_name_english = 'computers') THEN 'computers'
+	WHEN (product_category_name_english = 'audio') THEN 'audio'
 ELSE 'non-tech products'
 END AS 'updated_category'
 FROM products
 JOIN product_category_name_translation
-ON product_category_name_translation.product_category_name=products.product_category_name
-GROUP BY product_category_name_english
-ORDER BY COUNT(product_id) DESC;
+ON product_category_name_translation.product_category_name=products.product_category_name)
+
+SELECT updated_category, COUNT(product_id) AS product_quantity, ROUND(COUNT(product_id) / (SELECT COUNT(product_id) FROM cte), 2) AS product_quantity_percentage
+FROM cte
+GROUP BY updated_category
+ORDER BY product_quantity DESC;
 
 
 
 
--- Average Prices Distibution (What’s the average price of the products being sold?)
-SELECT product_category_name_translation.product_category_name_english, ROUND(AVG(price),0) AS Average_Price,
+
+-- What’s the average price of the products being sold?
+
+-- Average Prices Distibution
+WITH cte AS(
+SELECT product_category_name_english, price,
 CASE
-WHEN (product_category_name_english = 'telephony') THEN 'telephony'
-WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
-WHEN (product_category_name_english = 'electronics') THEN 'electronics'
-WHEN (product_category_name_english = 'computers') THEN 'computers'
-WHEN (product_category_name_english = 'audio') THEN 'audio'
+	WHEN (product_category_name_english = 'telephony') THEN 'telephony'
+	WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
+	WHEN (product_category_name_english = 'electronics') THEN 'electronics'
+	WHEN (product_category_name_english = 'computers') THEN 'computers'
+	WHEN (product_category_name_english = 'audio') THEN 'audio'
 ELSE 'non-tech products'
 END AS 'updated_category'
 FROM products
 RIGHT JOIN order_items
-ON products.product_id = order_items.product_id
+USING (product_id)
 JOIN product_category_name_translation
-ON products.product_category_name = product_category_name_translation.product_category_name
-GROUP BY product_category_name_translation.product_category_name_english
-ORDER BY Average_Price DESC;
+USING (product_category_name))
+
+SELECT updated_category, ROUND(AVG(price), 0) AS average_price
+FROM cte 
+GROUP BY updated_category
+ORDER BY average_price DESC;
 
 
 
 
--- Total Revenue Distibution (How was the revenue distribution of tech products and non-tech products?)
 
-SELECT product_category_name_english as Category, ROUND(sum(price)) as Revenue,
+
+-- How was the revenue distribution of tech products and non-tech products?
+
+-- Total Revenue Distibution
+WITH cte AS(
+SELECT product_category_name_english, price,
 CASE
-WHEN (product_category_name_english = 'telephony') THEN 'telephony'
-WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
-WHEN (product_category_name_english = 'electronics') THEN 'electronics'
-WHEN (product_category_name_english = 'computers') THEN 'computers'
-WHEN (product_category_name_english = 'audio') THEN 'audio'
+	WHEN (product_category_name_english = 'telephony') THEN 'telephony'
+	WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
+	WHEN (product_category_name_english = 'electronics') THEN 'electronics'
+	WHEN (product_category_name_english = 'computers') THEN 'computers'
+	WHEN (product_category_name_english = 'audio') THEN 'audio'
 ELSE 'non-tech products'
 END AS 'updated_category'
 FROM order_items
 JOIN products
-ON order_items.product_id = products.product_id
+USING(product_id)
 JOIN product_category_name_translation
-ON products.product_category_name = product_category_name_translation.product_category_name
-GROUP BY product_category_name_english;
+USING (product_category_name))
+
+SELECT updated_category, ROUND(SUM(price), 0) AS revenue, ROUND(SUM(price) / (SELECT SUM(price) FROM cte), 2) AS revenue_percentage
+FROM cte
+GROUP BY updated_category
+ORDER BY revenue DESC;
+
 
 
 
 
 -- Are expensive tech products popular? (Eniac's Avg. Product Price:540 €)
-SELECT product_category_name_translation.product_category_name_english, ROUND(AVG(price),0) AS Average_Price, COUNT(order_id) AS Order_quantity,
+WITH cte AS(
+SELECT product_category_name_english, price, order_id,
 CASE
-WHEN (product_category_name_english = 'telephony') THEN 'telephony'
-WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
-WHEN (product_category_name_english = 'electronics') THEN 'electronics'
-WHEN (product_category_name_english = 'computers') THEN 'computers'
-WHEN (product_category_name_english = 'audio') THEN 'audio'
+	WHEN (product_category_name_english = 'telephony') THEN 'telephony'
+	WHEN (product_category_name_english = 'computers_accessories') THEN 'computers_accessories'
+	WHEN (product_category_name_english = 'electronics') THEN 'electronics'
+	WHEN (product_category_name_english = 'computers') THEN 'computers'
+	WHEN (product_category_name_english = 'audio') THEN 'audio'
 ELSE 'non-tech products'
 END AS 'updated_category'
 FROM products
 RIGHT JOIN order_items
-ON products.product_id = order_items.product_id
+USING(product_id)
 JOIN product_category_name_translation
-ON products.product_category_name = product_category_name_translation.product_category_name
-WHERE product_category_name_english in ('telephony', 'computers_accessories', 'electronics', 'computers', 'audio')
-GROUP BY product_category_name_translation.product_category_name_english
-ORDER BY Average_Price DESC;
+USING(product_category_name))
+SELECT updated_category, ROUND(AVG(price)) AS average_price, COUNT(order_id) AS order_quantity, ROUND(COUNT(order_id) / (SELECT COUNT(order_id) FROM cte), 4) AS percentage
+FROM cte
+GROUP BY updated_category
+ORDER BY average_price DESC;
 
