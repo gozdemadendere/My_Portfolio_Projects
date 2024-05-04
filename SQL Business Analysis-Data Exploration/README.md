@@ -1,4 +1,4 @@
-## E-Commerce Company Eniac's Data-Driven Decision Making Journey
+## E-Commerce Company's Journey to Data-Driven Decision Making 
 
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 The company is considering a collaboration with Magist, a Software company offering a centralized order management system.
@@ -21,31 +21,29 @@ As a result of in-depth exploratory data analysis, Eniac arrives at a definitive
 The findings suggest that **Magist may not be a good partner** for Eniac's high-quality tech products. Several factors contribute to this decision:
 
 
-
-The findings suggest that Magist may not be the optimal partner for Eniac's high-quality tech products. Several factors contribute to this decision:
-
 **1) Market Fit:** Mostly **non-tech products** are sold in Magist marketplaces. But Eniac sells 100% technology products.
 There are 32.951 products in Magist Marketplaces and **90%** of them are non-tech products.
 
-<img width="1084" alt="Screen Shot 2023-04-24 at 11 48 21 PM" src="https://user-images.githubusercontent.com/90986708/234124030-ed384b1f-41e6-4df5-834c-3d855f8162f7.png">
+<img width="988" alt="Screen Shot 2024-05-04 at 10 16 14 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/1d206a5e-2e42-44d3-8674-d5d588f139ee">
+
 
 
 **2) Product Fit:** Mostly **cheap products** are sold in Magist marketplaces, but Eniac sells mainly based on Apple-compatible (high-quality) accessories.
 
+<img width="1057" alt="Screen Shot 2024-05-04 at 10 22 34 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/e9a54a7b-3d31-480f-9c87-4d9af9aa1d60">
 
-<img width="1089" alt="Screen Shot 2023-04-25 at 12 08 38 AM" src="https://user-images.githubusercontent.com/90986708/234127271-5a9a0c3e-98b0-40ca-9335-375ab7a119e3.png">
 
-__________________
 
 The average price of tech products in Magist Marketplaces is **€297**, but Eniac's Avg. Product Price is **€540**.
 
-<img width="1084" alt="Screen Shot 2023-04-24 at 11 49 47 PM" src="https://user-images.githubusercontent.com/90986708/234124245-1783ef8f-6756-4c90-a471-da2900e70d0b.png">
+<img width="954" alt="Screen Shot 2024-05-04 at 10 25 24 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/4dbb1852-fa55-40a3-9a15-fe7341bfa79f">
+
 
 
 
 **3) Revenue Composition:** In Magist Marketplaces, **80% of the revenue** comes from non-tech products.
   
-<img width="1171" alt="Screen Shot 2023-04-26 at 4 13 00 PM" src="https://user-images.githubusercontent.com/90986708/234603273-4ad38a4d-04a3-41fb-8b8e-1644fcfca68a.png">
+<img width="954" alt="Screen Shot 2024-05-05 at 1 10 35 AM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/2cc4d288-7bba-4dcf-bb5d-1ab2a8e6fde9">
 
 
 **4) Delivery Standards:** The average **delivery time** is 12 days in Magist market, while Apple standard delivery time is 1-3 days.
