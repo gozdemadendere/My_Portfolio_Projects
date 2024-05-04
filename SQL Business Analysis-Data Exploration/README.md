@@ -1,4 +1,4 @@
-## E-Commerce Company's Journey to Data-Driven Decision Making 
+## Business Analysis for Data-Driven Decision Making
 
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 The company is considering a collaboration with Magist, a Software company offering a centralized order management system.
