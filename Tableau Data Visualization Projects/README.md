@@ -34,7 +34,7 @@ Based on the insights derived from the dashboard analysis, the following strateg
 - Implement targeted CRM efforts in cities such as Chicago, Los Angeles, and Las Vegas, which are the top 3 cities where sales revenue comes from.
 - Consider bolstering inventory levels during the summer months to meet heightened demand and capitalize on seasonal sales trends.
 - Allocate resources to stock more of the top-performing Consumer products, as indicated by their strong purchase rates, to optimize inventory management and capitalize on consumer preferences.
-- 
+
 
 #### 5. Technical Skills 
 
