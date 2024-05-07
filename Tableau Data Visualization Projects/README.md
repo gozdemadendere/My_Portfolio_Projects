@@ -15,7 +15,7 @@ It aims to provide quick access to valuable insights, streamline decision-making
 
 The dashboard provides a snapshot of key metrics and insights. [See the interactive dashboard here.](https://public.tableau.com/app/profile/gozdemadendere/viz/Book111_17147600292980/Dashboard1?publish=yes)
 
-<img width="1412" alt="Screen Shot 2024-05-05 at 10 46 46 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/a75010dc-dd6b-415b-9705-7075c589161e">
+<img width="1284" alt="Screen Shot 2024-05-07 at 1 26 20 PM" src="https://github.com/gozdemadendere/My_Portfolio_Projects/assets/90986708/8f9cc15b-62e5-4995-a812-8c5395ab7dbc">
 
 
 #### 3. Key Insights:
