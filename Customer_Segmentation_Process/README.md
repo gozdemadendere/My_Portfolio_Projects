@@ -2,6 +2,8 @@
 
 - The customer segmentation process aims to group customers depending on similar characteristics, needs, and behaviors, then create customer segments, and create marketing strategies based on each group.
 
+- We can create our rules using customers' age, gender, city or country they live in, and their spending amount.
+  
 - The goal of customer segmentation is to find new customers' potential segments, support marketing strategies, and calculate the potential revenue of these customers.
 
 ______________________________
