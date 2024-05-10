@@ -1,16 +1,16 @@
 ## CUSTOMER SEGMENTATION PROCESS (Rule Based Classifications)
 
-- Customer segmentation is the process of grouping customers with similar characteristics, needs, and behaviors into segments and creating marketing strategies tailored to each group.
+- The customer segmentation process aims to group customers depending on similar characteristics, needs, and behaviors. Then create customer segments, and create marketing strategies based on each group.
 
-- The goal of segmentation is to determine where new customers fit into these segments, support marketing strategies, and calculate the average expected return of these customers.
+- The goal of customer segmentation is to find new customers' potential segments, support marketing strategies, and calculate the potential revenue of these customers.
 
 ______________________________
 
 ### 1. BUSINESS PROBLEM / PROJECT OBJECTIVES
 
-A gaming company aims to create level-based customer personas using customer characteristics and segment customers accordingly. 
+A gaming company aims to create new customer segmentations based on rule-based classification using customers' characteristics, needs, and behaviors.
 
-Then, they want to predict the average revenue potential of these segments, such as determining the average revenue of a 25-year-old male IOS user from Turkey.
+Then, they want to predict the average potential revenue of these segments, such as predicting the average revenue of a 25-year-old male IOS user from Turkey.
 
 Project Goals:
 - To divide customers into segments based on common characteristics
