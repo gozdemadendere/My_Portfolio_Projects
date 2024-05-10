@@ -1,6 +1,6 @@
 ## CUSTOMER SEGMENTATION PROCESS (Rule Based Classifications)
 
-- The customer segmentation process aims to group customers depending on similar characteristics, needs, and behaviors. Then create customer segments, and create marketing strategies based on each group.
+- The customer segmentation process aims to group customers depending on similar characteristics, needs, and behaviors, then create customer segments, and create marketing strategies based on each group.
 
 - The goal of customer segmentation is to find new customers' potential segments, support marketing strategies, and calculate the potential revenue of these customers.
 
