@@ -13,7 +13,7 @@ ______________________________
 
 ### 1. Business Problem / Project Objective
 
-FLO, one of the leading retail companies in the Turkish shoe market, aims to segment customers based onRecency, Frequency, and Monetary metrics.
+FLO, one of the leading retail companies in the Turkish shoe market, aims to segment customers based on Recency, Frequency, and Monetary metrics.
 
 The dataset consists of information derived from the past shopping behaviors of customers who made their last purchases OmniChannel (both online and offline shopping) in the years 2020 - 2021.
 
