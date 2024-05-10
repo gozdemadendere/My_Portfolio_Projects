@@ -1,19 +1,19 @@
 ## Customer Segmentation with RFM Analysis
 
-RFM analysis is a technique used for customer segmentation, utilizing Recency, Frequency, and Monetary metrics.
+The customer segmentation process aims to group customers depending on similar characteristics, needs, and behaviors, then create customer segments, and create marketing strategies based on each group.
 
-It allows for segmenting customers based on their purchasing habits and enables the development of strategies tailored to these segments.
+RFM analysis is a customer segmentation technique based on Recency, Frequency, and Monetary metrics.
 
 - Recency = Analysis date - Customer's last purchase date
 - Frequency = Total number of purchases by the customer (total transactions or invoice count)
-- Monetary = Total amount spent by the customer 
+- Monetary = Total spending amount by the customer 
 
 ______________________________
 
 
 ### 1. Business Problem / Project Objective
 
-FLO, one of the leading companies in the Turkish shoe market, aims to segment its customers based on their purchasing habits and develop strategies tailored to these segments.
+FLO, one of the leading retail companies in the Turkish shoe market, aims to segment customers based onRecency, Frequency, and Monetary metrics.
 
 The dataset consists of information derived from the past shopping behaviors of customers who made their last purchases OmniChannel (both online and offline shopping) in the years 2020 - 2021.
 
