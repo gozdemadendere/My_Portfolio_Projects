@@ -4,7 +4,7 @@
 
 - We can create our rules using customers' age, gender, city or country they live in, and their spending amount.
   
-- The goal of customer segmentation is to find new customers' potential segments, support marketing strategies, and calculate the potential revenue of these customers.
+- The goal of customer segmentation is to create new customer segmentations, support marketing decisions, and predict the potential revenue of new customers based on their potential segments.
 
 ______________________________
 
