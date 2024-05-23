@@ -9,12 +9,12 @@ The main objective of this project is to determine whether a partnership with Ma
 
 - It's not clear that the marketplaces Magist works with are a good place for high-quality tech products.
 
-- Among Eniac’s efforts to have happy customers, fast deliveries are key. Are deliveries fast enough on Magist?
+- Fast deliveries are key to Eniac’s efforts to have happy customers. Are deliveries fast enough on Magist?
 
 Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL Queries (Data Analysis) & Tableau (Data Visualization)
 
 __________________
-#### Conclusions & Final Recommendations 
+#### Conclusions & Final Recommendations  
 
 As a result of in-depth exploratory data analysis, Eniac arrives at a definitive conclusion.
 
