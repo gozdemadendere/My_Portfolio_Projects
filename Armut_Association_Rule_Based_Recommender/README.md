@@ -6,7 +6,7 @@ The ARL method does not rely on user rating habits but focuses solely on relatio
 
 ______________________________
 
-
+ 
 ### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE
 
 Armut, Turkey's largest online service platform, connects service providers with individuals seeking services.
