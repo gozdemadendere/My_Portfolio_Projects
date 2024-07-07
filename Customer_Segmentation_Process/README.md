@@ -8,7 +8,7 @@
 
 ______________________________
 
-### 1. BUSINESS PROBLEM / PROJECT OBJECTIVES 
+### 1. BUSINESS PROBLEM / PROJECT OBJECTIVES  
 
 A gaming company aims to create new customer segmentations based on rule-based classification using customers' characteristics, needs, and behaviors.
 
