@@ -8,7 +8,7 @@ However, before diving into this partnership, Eniac seeks answers to critical qu
 The main objective of this project is to determine whether a partnership with Magist aligns with Eniac's strategic goals.
 
 - It's not clear that the marketplaces Magist works with are a good place for high-quality tech products.
-
+ 
 - Fast deliveries are key to Eniac’s efforts to have happy customers. Are deliveries fast enough on Magist?
 
 Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL Queries (Data Analysis) & Tableau (Data Visualization)
