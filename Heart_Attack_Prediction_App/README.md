@@ -3,7 +3,7 @@
 
 #### View the App: https://gozdemadendere-heart-attack-prediction-app.streamlit.app/
 
-This machine learning project aims to identify people's heart attack risk based on their medical attributes and to help healthcare providers.
+This machine learning project aims to identify people's heart attack risk based on their medical attributes and to help healthcare providers. 
 
 <img width="1169" alt="Screen Shot 2024-01-23 at 11 34 07 AM" src="https://github.com/gozdemadendere/Heart_Attack_Prediction_App_streamlit/assets/90986708/46a1f79d-b858-4274-b713-f1b228c504e3"> 
 
