@@ -17,7 +17,7 @@ FLO, one of the leading retail companies in the Turkish shoe market, aims to seg
 
 The dataset consists of information derived from the past shopping behaviors of customers who made their last purchases OmniChannel (both online and offline shopping) in the years 2020 - 2021.
 
-
+ 
 ______________________________
 
 ### 2. Project Stages
