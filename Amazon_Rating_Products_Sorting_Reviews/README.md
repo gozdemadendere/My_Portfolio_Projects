@@ -4,8 +4,7 @@ One of the most significant challenges in e-commerce is accurately calculating p
 
 Another issue is sorting product reviews accurately (Sorting Reviews). Highlighting misleading reviews can directly impact product sales, resulting in both financial loss and customer dissatisfaction.
 
-Addressing these two fundamental problems not only boosts sales for e-commerce platforms and sellers but also ensures customers complete their purchasing journey.
-
+Addressing these two fundamental problems not only boosts sales for e-commerce platforms and sellers but also ensures customers complete their purchasing journey. 
 ______________________________
 
 
