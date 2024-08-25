@@ -17,7 +17,7 @@ Our objective is to develop a method for calculating product ratings and to sort
 ______________________________ 
 
 ### 2. PROJECT STEPS
-
+ 
 1. Business Problem
 2. Data Understanding
 3. Rating Products
