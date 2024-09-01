@@ -3,7 +3,7 @@
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 The company is considering a collaboration with Magist, a Software company offering a centralized order management system.
 However, before diving into this partnership, Eniac seeks answers to critical questions regarding compatibility, market fit, and service quality.
-
+ 
 #### Project Objectives & Overview
 The main objective of this project is to determine whether a partnership with Magist aligns with Eniac's strategic goals.
 
