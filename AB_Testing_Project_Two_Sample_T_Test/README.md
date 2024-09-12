@@ -10,7 +10,7 @@ The primary objective of comparing two groups is to test whether any differences
 ______________________________  
  
 
-### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE 
+### 1. BUSINESS PROBLEM / PROJECT OBJECTIVE   
 
 Facebook recently introduced a new bidding type called "average bidding" as an alternative to the existing "maximum bidding" bidding type.
 
