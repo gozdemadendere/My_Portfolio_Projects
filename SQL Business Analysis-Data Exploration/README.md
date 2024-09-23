@@ -5,7 +5,7 @@ The company is considering a collaboration with Magist, a Software company offer
 However, before diving into this partnership, Eniac seeks answers to critical questions regarding compatibility, market fit, and service quality.
  
 #### Project Objectives & Overview
-The main objective of this project is to determine whether a partnership with Magist aligns with Eniac's strategic goals.
+The main objective of this project is to determine whether a partnership with Magist aligns with Eniac's strategic goals. 
 
 - It's not clear that the marketplaces Magist works with are a good place for high-quality tech products.
  
