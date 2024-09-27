@@ -14,7 +14,7 @@ The main objective of this project is to determine whether a partnership with Ma
 Thankfully, Magist has allowed Eniac to access a snapshot of their database. I'll answer the business questions by exploring the data using SQL Queries (Data Analysis) & Tableau (Data Visualization)
 
 __________________
-#### Conclusions & Final Recommendations  
+#### Conclusions & Final Recommendations   
 
 As a result of in-depth exploratory data analysis, Eniac arrives at a definitive conclusion.
 
