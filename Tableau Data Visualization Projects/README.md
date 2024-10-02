@@ -9,7 +9,7 @@ It aims to provide quick access to valuable insights, streamline decision-making
 
 - This dashboard collects and tracks complex data and organizes it into simple, easy-to-understand formats.
 - The dashboard facilitates trend identification, identifies areas for improvement, and allows decision-makers to monitor changes in operations efficiently.
-
+ 
 
 #### 2. The Dashboard
 
