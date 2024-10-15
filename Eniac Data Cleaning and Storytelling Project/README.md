@@ -1,7 +1,7 @@
 ## Data Cleaning & Storytelling | Python 
 
 ### Project Objectives & Overview
-#### 1. Business Problem
+#### 1. Business Problem 
 
 Eniac is an E-Commerce company that sells 100% technology products, mainly based on Apple-compatible (high-quality) accessories.
 
