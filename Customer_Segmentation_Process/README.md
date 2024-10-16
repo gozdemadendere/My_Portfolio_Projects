@@ -6,7 +6,7 @@
   
 - The goal of customer segmentation is to create new customer segmentations, support marketing decisions, and predict the potential revenue of new customers based on their potential segments.
 
-______________________________
+______________________________ 
 
 ### 1. BUSINESS PROBLEM / PROJECT OBJECTIVES   
 
