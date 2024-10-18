@@ -10,7 +10,7 @@ RFM analysis is a customer segmentation technique based on Recency, Frequency, a
 
 ______________________________
 
-
+ 
 ### 1. Business Problem / Project Objective   
 
 FLO, one of the leading retail companies in the Turkish shoe market, aims to segment customers based on Recency, Frequency, and Monetary metrics.
