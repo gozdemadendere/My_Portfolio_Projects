@@ -1,5 +1,5 @@
 
-### A/B Testing - Comparison of Bidding Methods
+### A/B Testing - Comparison of Bidding Methods 
 
 A/B testing is a technique used to determine which version of a product, method, or service performs better by comparing two versions.
 
