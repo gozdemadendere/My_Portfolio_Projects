@@ -5,7 +5,7 @@ A/B testing is a technique used to determine which version of a product, method,
 
 It is commonly used to improve website design, app design, advertising, pricing, and other aspects of user experience.
 
-The primary objective of comparing two groups is to test whether any differences observed are due to chance.  
+The primary objective of comparing two groups is to test whether any differences observed are due to chance.   
 
 ______________________________ 
 
