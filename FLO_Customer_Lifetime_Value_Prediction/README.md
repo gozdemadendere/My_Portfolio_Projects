@@ -8,7 +8,7 @@ This method tries to predict future purchase probabilities by utilizing a custom
 
 It helps companies manage their relationships with customers and support marketing strategies.
 
-CLV Prediction = Expected number of purchases x Expected average profit
+CLV Prediction = Expected number of purchases x Expected average profit 
 
 ______________________________
  
