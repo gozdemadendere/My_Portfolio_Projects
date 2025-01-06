@@ -18,7 +18,7 @@ With the help of EDA, we can easily understand the structure and content of the 
 
 
 
-
+ 
 #### 2. Purpose of the Project
 
 In this project, I will use the Heart Attack Dataset to perform Exploratory Data Analysis. The data set is publicly available on Kaggle.
